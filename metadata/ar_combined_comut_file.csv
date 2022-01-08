@@ -1,0 +1,1002 @@
+sample,category,value
+01115154-TA1,Chromoplexy,no
+01115156-TA1,Chromoplexy,no
+01115156-TC5,Chromoplexy,no
+01115157-TA3,Chromoplexy,no
+01115157-TC3,Chromoplexy,no
+01115183-TA1,Chromoplexy,no
+01115202-TC2,Chromoplexy,no
+01115244-TA3,Chromoplexy,no
+01115248-TA3,Chromoplexy,no
+01115249-TC5,Chromoplexy,no
+01115257-TA4,Chromoplexy,no
+01115263-TA3,Chromoplexy,no
+01115284-TA9,Chromoplexy,no
+01115326-TA3,Chromoplexy,no
+01115374-TA2,Chromoplexy,no
+01115378-TA2,Chromoplexy,no
+01115414-TA1,Chromoplexy,no
+01115444-TA5,Chromoplexy,no
+01115468-TA3,Chromoplexy,no
+01115503-TC2,Chromoplexy,no
+01115525-TA1,Chromoplexy,no
+01115531-TA4,Chromoplexy,no
+01115549-TA4,Chromoplexy,no
+01115554-TA2,Chromoplexy,no
+01115556-TC1,Chromoplexy,no
+01115569-TC1,Chromoplexy,no
+01115574-TC3,Chromoplexy,no
+01115576-TC2,Chromoplexy,no
+01115577-TC1,Chromoplexy,no
+01115578-TC4,Chromoplexy,no
+01115581-TA3,Chromoplexy,no
+01115589-TC2,Chromoplexy,no
+01115606-TA2,Chromoplexy,no
+01115644-TA1,Chromoplexy,no
+01115655-TA1,Chromoplexy,no
+01115655-TC1,Chromoplexy,no
+01115668-TA4,Chromoplexy,no
+01115669-TA3,Chromoplexy,no
+06115115-T,Chromoplexy,no
+06115117-T,Chromoplexy,no
+06115118-T,Chromoplexy,no
+6115233-T-C1,Chromoplexy,no
+DTB-003-BL,Chromoplexy,no
+DTB-005-BL,Chromoplexy,no
+DTB-008-BL,Chromoplexy,no
+DTB-009-BL,Chromoplexy,no
+DTB-011-BL,Chromoplexy,no
+DTB-018-BL,Chromoplexy,no
+DTB-019-PRO,Chromoplexy,no
+DTB-020-BL,Chromoplexy,no
+DTB-021-BL,Chromoplexy,no
+DTB-022-BL,Chromoplexy,no
+DTB-023-BL,Chromoplexy,no
+DTB-024-PRO,Chromoplexy,no
+DTB-034-BL,Chromoplexy,no
+DTB-035-BL,Chromoplexy,no
+DTB-036-BL,Chromoplexy,no
+DTB-037-BL,Chromoplexy,no
+DTB-040-BL,Chromoplexy,no
+DTB-042-BL,Chromoplexy,no
+DTB-053-BL,Chromoplexy,no
+DTB-055-PRO,Chromoplexy,no
+DTB-059-BL,Chromoplexy,no
+DTB-060-BL,Chromoplexy,no
+DTB-061-BL,Chromoplexy,yes
+DTB-063-BL,Chromoplexy,yes
+DTB-064-BL,Chromoplexy,no
+DTB-067-PRO,Chromoplexy,no
+DTB-069-BL,Chromoplexy,no
+DTB-071-BL,Chromoplexy,no
+DTB-074-BL,Chromoplexy,no
+DTB-077-PRO,Chromoplexy,no
+DTB-080-BL,Chromoplexy,no
+DTB-083-BL,Chromoplexy,no
+DTB-085-BL,Chromoplexy,yes
+DTB-089-BL,Chromoplexy,yes
+DTB-090-PRO,Chromoplexy,no
+DTB-091-BL,Chromoplexy,no
+DTB-092-BL,Chromoplexy,yes
+DTB-094-BL,Chromoplexy,no
+DTB-097-PRO,Chromoplexy,no
+DTB-098-PRO2,Chromoplexy,no
+DTB-100-BL,Chromoplexy,no
+DTB-101-BL,Chromoplexy,no
+DTB-102-PRO,Chromoplexy,no
+DTB-104-BL,Chromoplexy,no
+DTB-111-PRO,Chromoplexy,no
+DTB-112-BL,Chromoplexy,no
+DTB-119-PRO,Chromoplexy,no
+DTB-121-BL,Chromoplexy,no
+DTB-124-BL,Chromoplexy,no
+DTB-126-BL,Chromoplexy,no
+DTB-127-PRO,Chromoplexy,no
+DTB-128-BL,Chromoplexy,no
+DTB-129-BL,Chromoplexy,no
+DTB-132-BL,Chromoplexy,no
+DTB-135-PRO,Chromoplexy,no
+DTB-137-PRO,Chromoplexy,no
+DTB-138-BL,Chromoplexy,no
+DTB-140-BL,Chromoplexy,no
+DTB-141-BL,Chromoplexy,no
+DTB-143-BL,Chromoplexy,no
+DTB-146-BL,Chromoplexy,no
+DTB-149-BL,Chromoplexy,no
+DTB-151-BL,Chromoplexy,no
+DTB-156-BL,Chromoplexy,no
+DTB-159-BL,Chromoplexy,no
+DTB-165-PRO,Chromoplexy,no
+DTB-167-PRO,Chromoplexy,no
+DTB-170-BL,Chromoplexy,no
+DTB-172-BL,Chromoplexy,no
+DTB-173-BL,Chromoplexy,no
+DTB-175-BL,Chromoplexy,no
+DTB-176-BL,Chromoplexy,yes
+DTB-183-BL,Chromoplexy,no
+DTB-186-BL,Chromoplexy,no
+DTB-187-BL,Chromoplexy,no
+DTB-188-BL,Chromoplexy,no
+DTB-190-BL,Chromoplexy,no
+DTB-193-BL,Chromoplexy,no
+DTB-194-PRO,Chromoplexy,no
+DTB-201-PRO,Chromoplexy,no
+DTB-202-BL,Chromoplexy,no
+DTB-204-BL,Chromoplexy,no
+DTB-205-BL,Chromoplexy,yes
+DTB-206-BL,Chromoplexy,no
+DTB-210-BL,Chromoplexy,no
+DTB-213-BL,Chromoplexy,no
+DTB-214-BL,Chromoplexy,no
+DTB-216-PRO,Chromoplexy,no
+DTB-220-BL,Chromoplexy,no
+DTB-222-BL,Chromoplexy,no
+DTB-223-BL,Chromoplexy,no
+DTB-232-PRO,Chromoplexy,no
+DTB-234-BL,Chromoplexy,no
+DTB-251-BL,Chromoplexy,no
+DTB-252-BL,Chromoplexy,no
+DTB-255-BL,Chromoplexy,no
+DTB-258-BL,Chromoplexy,no
+DTB-260-BL,Chromoplexy,no
+DTB-261-BL,Chromoplexy,no
+DTB-265-PRO,Chromoplexy,no
+DTB-266-BL,Chromoplexy,no
+01115154-TA1,chromothripsis (AR),no
+01115156-TA1,chromothripsis (AR),no
+01115156-TC5,chromothripsis (AR),no
+01115157-TA3,chromothripsis (AR),no
+01115157-TC3,chromothripsis (AR),no
+01115183-TA1,chromothripsis (AR),no
+01115202-TC2,chromothripsis (AR),no
+01115244-TA3,chromothripsis (AR),no
+01115248-TA3,chromothripsis (AR),no
+01115249-TC5,chromothripsis (AR),no
+01115257-TA4,chromothripsis (AR),no
+01115263-TA3,chromothripsis (AR),no
+01115284-TA9,chromothripsis (AR),no
+01115326-TA3,chromothripsis (AR),no
+01115374-TA2,chromothripsis (AR),no
+01115378-TA2,chromothripsis (AR),no
+01115414-TA1,chromothripsis (AR),no
+01115444-TA5,chromothripsis (AR),no
+01115468-TA3,chromothripsis (AR),no
+01115503-TC2,chromothripsis (AR),no
+01115525-TA1,chromothripsis (AR),no
+01115531-TA4,chromothripsis (AR),no
+01115549-TA4,chromothripsis (AR),no
+01115554-TA2,chromothripsis (AR),no
+01115556-TC1,chromothripsis (AR),no
+01115569-TC1,chromothripsis (AR),no
+01115574-TC3,chromothripsis (AR),no
+01115576-TC2,chromothripsis (AR),no
+01115577-TC1,chromothripsis (AR),no
+01115578-TC4,chromothripsis (AR),no
+01115581-TA3,chromothripsis (AR),no
+01115589-TC2,chromothripsis (AR),no
+01115606-TA2,chromothripsis (AR),no
+01115644-TA1,chromothripsis (AR),no
+01115655-TA1,chromothripsis (AR),no
+01115655-TC1,chromothripsis (AR),no
+01115668-TA4,chromothripsis (AR),no
+01115669-TA3,chromothripsis (AR),no
+06115115-T,chromothripsis (AR),no
+06115117-T,chromothripsis (AR),no
+06115118-T,chromothripsis (AR),no
+6115233-T-C1,chromothripsis (AR),no
+DTB-003-BL,chromothripsis (AR),no
+DTB-005-BL,chromothripsis (AR),yes
+DTB-008-BL,chromothripsis (AR),no
+DTB-009-BL,chromothripsis (AR),no
+DTB-011-BL,chromothripsis (AR),no
+DTB-018-BL,chromothripsis (AR),no
+DTB-019-PRO,chromothripsis (AR),no
+DTB-020-BL,chromothripsis (AR),no
+DTB-021-BL,chromothripsis (AR),no
+DTB-022-BL,chromothripsis (AR),no
+DTB-023-BL,chromothripsis (AR),no
+DTB-024-PRO,chromothripsis (AR),no
+DTB-034-BL,chromothripsis (AR),no
+DTB-035-BL,chromothripsis (AR),no
+DTB-036-BL,chromothripsis (AR),no
+DTB-037-BL,chromothripsis (AR),yes
+DTB-040-BL,chromothripsis (AR),no
+DTB-042-BL,chromothripsis (AR),no
+DTB-053-BL,chromothripsis (AR),no
+DTB-055-PRO,chromothripsis (AR),no
+DTB-059-BL,chromothripsis (AR),no
+DTB-060-BL,chromothripsis (AR),no
+DTB-061-BL,chromothripsis (AR),no
+DTB-063-BL,chromothripsis (AR),no
+DTB-064-BL,chromothripsis (AR),no
+DTB-067-PRO,chromothripsis (AR),no
+DTB-069-BL,chromothripsis (AR),no
+DTB-071-BL,chromothripsis (AR),no
+DTB-074-BL,chromothripsis (AR),no
+DTB-077-PRO,chromothripsis (AR),no
+DTB-080-BL,chromothripsis (AR),no
+DTB-083-BL,chromothripsis (AR),no
+DTB-085-BL,chromothripsis (AR),no
+DTB-089-BL,chromothripsis (AR),no
+DTB-090-PRO,chromothripsis (AR),no
+DTB-091-BL,chromothripsis (AR),no
+DTB-092-BL,chromothripsis (AR),no
+DTB-094-BL,chromothripsis (AR),no
+DTB-097-PRO,chromothripsis (AR),no
+DTB-098-PRO2,chromothripsis (AR),no
+DTB-100-BL,chromothripsis (AR),no
+DTB-101-BL,chromothripsis (AR),no
+DTB-102-PRO,chromothripsis (AR),no
+DTB-104-BL,chromothripsis (AR),no
+DTB-111-PRO,chromothripsis (AR),yes
+DTB-112-BL,chromothripsis (AR),no
+DTB-119-PRO,chromothripsis (AR),no
+DTB-121-BL,chromothripsis (AR),no
+DTB-124-BL,chromothripsis (AR),no
+DTB-126-BL,chromothripsis (AR),no
+DTB-127-PRO,chromothripsis (AR),no
+DTB-128-BL,chromothripsis (AR),no
+DTB-129-BL,chromothripsis (AR),no
+DTB-132-BL,chromothripsis (AR),no
+DTB-135-PRO,chromothripsis (AR),no
+DTB-137-PRO,chromothripsis (AR),no
+DTB-138-BL,chromothripsis (AR),no
+DTB-140-BL,chromothripsis (AR),no
+DTB-141-BL,chromothripsis (AR),no
+DTB-143-BL,chromothripsis (AR),no
+DTB-146-BL,chromothripsis (AR),no
+DTB-149-BL,chromothripsis (AR),no
+DTB-151-BL,chromothripsis (AR),no
+DTB-156-BL,chromothripsis (AR),no
+DTB-159-BL,chromothripsis (AR),no
+DTB-165-PRO,chromothripsis (AR),yes
+DTB-167-PRO,chromothripsis (AR),no
+DTB-170-BL,chromothripsis (AR),no
+DTB-172-BL,chromothripsis (AR),no
+DTB-173-BL,chromothripsis (AR),no
+DTB-175-BL,chromothripsis (AR),no
+DTB-176-BL,chromothripsis (AR),no
+DTB-183-BL,chromothripsis (AR),no
+DTB-186-BL,chromothripsis (AR),no
+DTB-187-BL,chromothripsis (AR),no
+DTB-188-BL,chromothripsis (AR),no
+DTB-190-BL,chromothripsis (AR),yes
+DTB-193-BL,chromothripsis (AR),no
+DTB-194-PRO,chromothripsis (AR),no
+DTB-201-PRO,chromothripsis (AR),no
+DTB-202-BL,chromothripsis (AR),no
+DTB-204-BL,chromothripsis (AR),no
+DTB-205-BL,chromothripsis (AR),no
+DTB-206-BL,chromothripsis (AR),no
+DTB-210-BL,chromothripsis (AR),no
+DTB-213-BL,chromothripsis (AR),no
+DTB-214-BL,chromothripsis (AR),no
+DTB-216-PRO,chromothripsis (AR),no
+DTB-220-BL,chromothripsis (AR),no
+DTB-222-BL,chromothripsis (AR),no
+DTB-223-BL,chromothripsis (AR),no
+DTB-232-PRO,chromothripsis (AR),no
+DTB-234-BL,chromothripsis (AR),no
+DTB-251-BL,chromothripsis (AR),no
+DTB-252-BL,chromothripsis (AR),no
+DTB-255-BL,chromothripsis (AR),no
+DTB-258-BL,chromothripsis (AR),no
+DTB-260-BL,chromothripsis (AR),no
+DTB-261-BL,chromothripsis (AR),no
+DTB-265-PRO,chromothripsis (AR),no
+DTB-266-BL,chromothripsis (AR),no
+01115154-TA1,ecDNA,yes
+01115156-TA1,ecDNA,no
+01115156-TC5,ecDNA,no
+01115157-TA3,ecDNA,no
+01115157-TC3,ecDNA,no
+01115183-TA1,ecDNA,no
+01115202-TC2,ecDNA,yes
+01115244-TA3,ecDNA,no
+01115248-TA3,ecDNA,no
+01115249-TC5,ecDNA,yes
+01115257-TA4,ecDNA,no
+01115263-TA3,ecDNA,no
+01115284-TA9,ecDNA,no
+01115326-TA3,ecDNA,yes
+01115374-TA2,ecDNA,no
+01115378-TA2,ecDNA,no
+01115414-TA1,ecDNA,no
+01115444-TA5,ecDNA,no
+01115468-TA3,ecDNA,no
+01115503-TC2,ecDNA,no
+01115525-TA1,ecDNA,no
+01115531-TA4,ecDNA,no
+01115549-TA4,ecDNA,no
+01115554-TA2,ecDNA,no
+01115556-TC1,ecDNA,no
+01115569-TC1,ecDNA,no
+01115574-TC3,ecDNA,no
+01115576-TC2,ecDNA,no
+01115577-TC1,ecDNA,no
+01115578-TC4,ecDNA,no
+01115581-TA3,ecDNA,no
+01115589-TC2,ecDNA,no
+01115606-TA2,ecDNA,no
+01115644-TA1,ecDNA,no
+01115655-TA1,ecDNA,no
+01115655-TC1,ecDNA,no
+01115668-TA4,ecDNA,no
+01115669-TA3,ecDNA,no
+06115115-T,ecDNA,yes
+06115117-T,ecDNA,no
+06115118-T,ecDNA,no
+6115233-T-C1,ecDNA,no
+DTB-003-BL,ecDNA,no
+DTB-005-BL,ecDNA,no
+DTB-008-BL,ecDNA,no
+DTB-009-BL,ecDNA,no
+DTB-011-BL,ecDNA,no
+DTB-018-BL,ecDNA,no
+DTB-019-PRO,ecDNA,no
+DTB-020-BL,ecDNA,no
+DTB-021-BL,ecDNA,no
+DTB-022-BL,ecDNA,no
+DTB-023-BL,ecDNA,no
+DTB-024-PRO,ecDNA,no
+DTB-034-BL,ecDNA,no
+DTB-035-BL,ecDNA,no
+DTB-036-BL,ecDNA,no
+DTB-037-BL,ecDNA,no
+DTB-040-BL,ecDNA,no
+DTB-042-BL,ecDNA,no
+DTB-053-BL,ecDNA,no
+DTB-055-PRO,ecDNA,no
+DTB-059-BL,ecDNA,yes
+DTB-060-BL,ecDNA,yes
+DTB-061-BL,ecDNA,no
+DTB-063-BL,ecDNA,yes
+DTB-064-BL,ecDNA,no
+DTB-067-PRO,ecDNA,no
+DTB-069-BL,ecDNA,no
+DTB-071-BL,ecDNA,no
+DTB-074-BL,ecDNA,no
+DTB-077-PRO,ecDNA,no
+DTB-080-BL,ecDNA,no
+DTB-083-BL,ecDNA,no
+DTB-085-BL,ecDNA,no
+DTB-089-BL,ecDNA,no
+DTB-090-PRO,ecDNA,yes
+DTB-091-BL,ecDNA,no
+DTB-092-BL,ecDNA,no
+DTB-094-BL,ecDNA,no
+DTB-097-PRO,ecDNA,no
+DTB-098-PRO2,ecDNA,no
+DTB-100-BL,ecDNA,no
+DTB-101-BL,ecDNA,no
+DTB-102-PRO,ecDNA,yes
+DTB-104-BL,ecDNA,yes
+DTB-111-PRO,ecDNA,no
+DTB-112-BL,ecDNA,no
+DTB-119-PRO,ecDNA,no
+DTB-121-BL,ecDNA,no
+DTB-124-BL,ecDNA,no
+DTB-126-BL,ecDNA,no
+DTB-127-PRO,ecDNA,no
+DTB-128-BL,ecDNA,yes
+DTB-129-BL,ecDNA,no
+DTB-132-BL,ecDNA,no
+DTB-135-PRO,ecDNA,no
+DTB-137-PRO,ecDNA,no
+DTB-138-BL,ecDNA,no
+DTB-140-BL,ecDNA,no
+DTB-141-BL,ecDNA,no
+DTB-143-BL,ecDNA,no
+DTB-146-BL,ecDNA,no
+DTB-149-BL,ecDNA,no
+DTB-151-BL,ecDNA,no
+DTB-156-BL,ecDNA,no
+DTB-159-BL,ecDNA,no
+DTB-165-PRO,ecDNA,no
+DTB-167-PRO,ecDNA,no
+DTB-170-BL,ecDNA,no
+DTB-172-BL,ecDNA,no
+DTB-173-BL,ecDNA,no
+DTB-175-BL,ecDNA,no
+DTB-176-BL,ecDNA,no
+DTB-183-BL,ecDNA,no
+DTB-186-BL,ecDNA,yes
+DTB-187-BL,ecDNA,no
+DTB-188-BL,ecDNA,no
+DTB-190-BL,ecDNA,no
+DTB-193-BL,ecDNA,no
+DTB-194-PRO,ecDNA,no
+DTB-201-PRO,ecDNA,no
+DTB-202-BL,ecDNA,no
+DTB-204-BL,ecDNA,no
+DTB-205-BL,ecDNA,no
+DTB-206-BL,ecDNA,no
+DTB-210-BL,ecDNA,no
+DTB-213-BL,ecDNA,no
+DTB-214-BL,ecDNA,no
+DTB-216-PRO,ecDNA,no
+DTB-220-BL,ecDNA,no
+DTB-222-BL,ecDNA,no
+DTB-223-BL,ecDNA,no
+DTB-232-PRO,ecDNA,no
+DTB-234-BL,ecDNA,no
+DTB-251-BL,ecDNA,no
+DTB-252-BL,ecDNA,no
+DTB-255-BL,ecDNA,no
+DTB-258-BL,ecDNA,no
+DTB-260-BL,ecDNA,no
+DTB-261-BL,ecDNA,no
+DTB-265-PRO,ecDNA,no
+DTB-266-BL,ecDNA,no
+01115154-TA1,BFB,yes
+01115156-TA1,BFB,no
+01115156-TC5,BFB,no
+01115157-TA3,BFB,no
+01115157-TC3,BFB,yes
+01115183-TA1,BFB,no
+01115202-TC2,BFB,no
+01115244-TA3,BFB,no
+01115248-TA3,BFB,no
+01115249-TC5,BFB,yes
+01115257-TA4,BFB,yes
+01115263-TA3,BFB,no
+01115284-TA9,BFB,no
+01115326-TA3,BFB,yes
+01115374-TA2,BFB,no
+01115378-TA2,BFB,no
+01115414-TA1,BFB,no
+01115444-TA5,BFB,yes
+01115468-TA3,BFB,no
+01115503-TC2,BFB,no
+01115525-TA1,BFB,no
+01115531-TA4,BFB,no
+01115549-TA4,BFB,no
+01115554-TA2,BFB,no
+01115556-TC1,BFB,no
+01115569-TC1,BFB,no
+01115574-TC3,BFB,no
+01115576-TC2,BFB,no
+01115577-TC1,BFB,no
+01115578-TC4,BFB,no
+01115581-TA3,BFB,no
+01115589-TC2,BFB,no
+01115606-TA2,BFB,yes
+01115644-TA1,BFB,no
+01115655-TA1,BFB,yes
+01115655-TC1,BFB,yes
+01115668-TA4,BFB,yes
+01115669-TA3,BFB,no
+06115115-T,BFB,yes
+06115117-T,BFB,no
+06115118-T,BFB,yes
+6115233-T-C1,BFB,no
+DTB-003-BL,BFB,no
+DTB-005-BL,BFB,yes
+DTB-008-BL,BFB,no
+DTB-009-BL,BFB,no
+DTB-011-BL,BFB,no
+DTB-018-BL,BFB,yes
+DTB-019-PRO,BFB,no
+DTB-020-BL,BFB,no
+DTB-021-BL,BFB,no
+DTB-022-BL,BFB,no
+DTB-023-BL,BFB,yes
+DTB-024-PRO,BFB,yes
+DTB-034-BL,BFB,no
+DTB-035-BL,BFB,no
+DTB-036-BL,BFB,no
+DTB-037-BL,BFB,no
+DTB-040-BL,BFB,no
+DTB-042-BL,BFB,no
+DTB-053-BL,BFB,no
+DTB-055-PRO,BFB,no
+DTB-059-BL,BFB,no
+DTB-060-BL,BFB,no
+DTB-061-BL,BFB,no
+DTB-063-BL,BFB,yes
+DTB-064-BL,BFB,no
+DTB-067-PRO,BFB,no
+DTB-069-BL,BFB,yes
+DTB-071-BL,BFB,yes
+DTB-074-BL,BFB,no
+DTB-077-PRO,BFB,no
+DTB-080-BL,BFB,yes
+DTB-083-BL,BFB,no
+DTB-085-BL,BFB,no
+DTB-089-BL,BFB,yes
+DTB-090-PRO,BFB,no
+DTB-091-BL,BFB,yes
+DTB-092-BL,BFB,yes
+DTB-094-BL,BFB,yes
+DTB-097-PRO,BFB,no
+DTB-098-PRO2,BFB,no
+DTB-100-BL,BFB,no
+DTB-101-BL,BFB,yes
+DTB-102-PRO,BFB,yes
+DTB-104-BL,BFB,yes
+DTB-111-PRO,BFB,no
+DTB-112-BL,BFB,no
+DTB-119-PRO,BFB,no
+DTB-121-BL,BFB,no
+DTB-124-BL,BFB,no
+DTB-126-BL,BFB,yes
+DTB-127-PRO,BFB,no
+DTB-128-BL,BFB,no
+DTB-129-BL,BFB,no
+DTB-132-BL,BFB,no
+DTB-135-PRO,BFB,no
+DTB-137-PRO,BFB,yes
+DTB-138-BL,BFB,no
+DTB-140-BL,BFB,no
+DTB-141-BL,BFB,yes
+DTB-143-BL,BFB,no
+DTB-146-BL,BFB,no
+DTB-149-BL,BFB,no
+DTB-151-BL,BFB,yes
+DTB-156-BL,BFB,yes
+DTB-159-BL,BFB,no
+DTB-165-PRO,BFB,yes
+DTB-167-PRO,BFB,yes
+DTB-170-BL,BFB,no
+DTB-172-BL,BFB,no
+DTB-173-BL,BFB,no
+DTB-175-BL,BFB,no
+DTB-176-BL,BFB,yes
+DTB-183-BL,BFB,no
+DTB-186-BL,BFB,yes
+DTB-187-BL,BFB,no
+DTB-188-BL,BFB,no
+DTB-190-BL,BFB,yes
+DTB-193-BL,BFB,no
+DTB-194-PRO,BFB,no
+DTB-201-PRO,BFB,no
+DTB-202-BL,BFB,yes
+DTB-204-BL,BFB,no
+DTB-205-BL,BFB,no
+DTB-206-BL,BFB,no
+DTB-210-BL,BFB,no
+DTB-213-BL,BFB,no
+DTB-214-BL,BFB,no
+DTB-216-PRO,BFB,no
+DTB-220-BL,BFB,no
+DTB-222-BL,BFB,no
+DTB-223-BL,BFB,no
+DTB-232-PRO,BFB,no
+DTB-234-BL,BFB,no
+DTB-251-BL,BFB,no
+DTB-252-BL,BFB,no
+DTB-255-BL,BFB,yes
+DTB-258-BL,BFB,no
+DTB-260-BL,BFB,no
+DTB-261-BL,BFB,no
+DTB-265-PRO,BFB,yes
+DTB-266-BL,BFB,no
+01115154-TA1,Intragenic AR,yes
+01115156-TA1,Intragenic AR,no
+01115156-TC5,Intragenic AR,no
+01115157-TA3,Intragenic AR,no
+01115157-TC3,Intragenic AR,no
+01115183-TA1,Intragenic AR,no
+01115202-TC2,Intragenic AR,no
+01115244-TA3,Intragenic AR,no
+01115248-TA3,Intragenic AR,no
+01115249-TC5,Intragenic AR,yes
+01115257-TA4,Intragenic AR,yes
+01115263-TA3,Intragenic AR,no
+01115284-TA9,Intragenic AR,no
+01115326-TA3,Intragenic AR,yes
+01115374-TA2,Intragenic AR,no
+01115378-TA2,Intragenic AR,no
+01115414-TA1,Intragenic AR,yes
+01115444-TA5,Intragenic AR,no
+01115468-TA3,Intragenic AR,no
+01115503-TC2,Intragenic AR,no
+01115525-TA1,Intragenic AR,no
+01115531-TA4,Intragenic AR,no
+01115549-TA4,Intragenic AR,no
+01115554-TA2,Intragenic AR,no
+01115556-TC1,Intragenic AR,no
+01115569-TC1,Intragenic AR,yes
+01115574-TC3,Intragenic AR,no
+01115576-TC2,Intragenic AR,no
+01115577-TC1,Intragenic AR,no
+01115578-TC4,Intragenic AR,no
+01115581-TA3,Intragenic AR,no
+01115589-TC2,Intragenic AR,no
+01115606-TA2,Intragenic AR,yes
+01115644-TA1,Intragenic AR,no
+01115655-TA1,Intragenic AR,yes
+01115655-TC1,Intragenic AR,yes
+01115668-TA4,Intragenic AR,yes
+01115669-TA3,Intragenic AR,no
+06115115-T,Intragenic AR,no
+06115117-T,Intragenic AR,no
+06115118-T,Intragenic AR,no
+6115233-T-C1,Intragenic AR,no
+DTB-003-BL,Intragenic AR,yes
+DTB-005-BL,Intragenic AR,no
+DTB-008-BL,Intragenic AR,no
+DTB-009-BL,Intragenic AR,no
+DTB-011-BL,Intragenic AR,no
+DTB-018-BL,Intragenic AR,yes
+DTB-019-PRO,Intragenic AR,no
+DTB-020-BL,Intragenic AR,no
+DTB-021-BL,Intragenic AR,no
+DTB-022-BL,Intragenic AR,no
+DTB-023-BL,Intragenic AR,yes
+DTB-024-PRO,Intragenic AR,no
+DTB-034-BL,Intragenic AR,no
+DTB-035-BL,Intragenic AR,no
+DTB-036-BL,Intragenic AR,no
+DTB-037-BL,Intragenic AR,no
+DTB-040-BL,Intragenic AR,no
+DTB-042-BL,Intragenic AR,no
+DTB-053-BL,Intragenic AR,no
+DTB-055-PRO,Intragenic AR,no
+DTB-059-BL,Intragenic AR,no
+DTB-060-BL,Intragenic AR,no
+DTB-061-BL,Intragenic AR,no
+DTB-063-BL,Intragenic AR,yes
+DTB-064-BL,Intragenic AR,no
+DTB-067-PRO,Intragenic AR,no
+DTB-069-BL,Intragenic AR,yes
+DTB-071-BL,Intragenic AR,yes
+DTB-074-BL,Intragenic AR,no
+DTB-077-PRO,Intragenic AR,no
+DTB-080-BL,Intragenic AR,no
+DTB-083-BL,Intragenic AR,no
+DTB-085-BL,Intragenic AR,no
+DTB-089-BL,Intragenic AR,yes
+DTB-090-PRO,Intragenic AR,no
+DTB-091-BL,Intragenic AR,no
+DTB-092-BL,Intragenic AR,yes
+DTB-094-BL,Intragenic AR,yes
+DTB-097-PRO,Intragenic AR,no
+DTB-098-PRO2,Intragenic AR,no
+DTB-100-BL,Intragenic AR,no
+DTB-101-BL,Intragenic AR,yes
+DTB-102-PRO,Intragenic AR,yes
+DTB-104-BL,Intragenic AR,yes
+DTB-111-PRO,Intragenic AR,no
+DTB-112-BL,Intragenic AR,no
+DTB-119-PRO,Intragenic AR,no
+DTB-121-BL,Intragenic AR,no
+DTB-124-BL,Intragenic AR,yes
+DTB-126-BL,Intragenic AR,no
+DTB-127-PRO,Intragenic AR,no
+DTB-128-BL,Intragenic AR,yes
+DTB-129-BL,Intragenic AR,no
+DTB-132-BL,Intragenic AR,no
+DTB-135-PRO,Intragenic AR,no
+DTB-137-PRO,Intragenic AR,no
+DTB-138-BL,Intragenic AR,no
+DTB-140-BL,Intragenic AR,no
+DTB-141-BL,Intragenic AR,yes
+DTB-143-BL,Intragenic AR,no
+DTB-146-BL,Intragenic AR,no
+DTB-149-BL,Intragenic AR,no
+DTB-151-BL,Intragenic AR,no
+DTB-156-BL,Intragenic AR,yes
+DTB-159-BL,Intragenic AR,no
+DTB-165-PRO,Intragenic AR,yes
+DTB-167-PRO,Intragenic AR,no
+DTB-170-BL,Intragenic AR,no
+DTB-172-BL,Intragenic AR,no
+DTB-173-BL,Intragenic AR,no
+DTB-175-BL,Intragenic AR,yes
+DTB-176-BL,Intragenic AR,yes
+DTB-183-BL,Intragenic AR,no
+DTB-186-BL,Intragenic AR,yes
+DTB-187-BL,Intragenic AR,no
+DTB-188-BL,Intragenic AR,yes
+DTB-190-BL,Intragenic AR,no
+DTB-193-BL,Intragenic AR,no
+DTB-194-PRO,Intragenic AR,no
+DTB-201-PRO,Intragenic AR,yes
+DTB-202-BL,Intragenic AR,no
+DTB-204-BL,Intragenic AR,no
+DTB-205-BL,Intragenic AR,no
+DTB-206-BL,Intragenic AR,no
+DTB-210-BL,Intragenic AR,no
+DTB-213-BL,Intragenic AR,no
+DTB-214-BL,Intragenic AR,no
+DTB-216-PRO,Intragenic AR,no
+DTB-220-BL,Intragenic AR,no
+DTB-222-BL,Intragenic AR,no
+DTB-223-BL,Intragenic AR,no
+DTB-232-PRO,Intragenic AR,no
+DTB-234-BL,Intragenic AR,no
+DTB-251-BL,Intragenic AR,no
+DTB-252-BL,Intragenic AR,no
+DTB-255-BL,Intragenic AR,no
+DTB-258-BL,Intragenic AR,no
+DTB-260-BL,Intragenic AR,no
+DTB-261-BL,Intragenic AR,no
+DTB-265-PRO,Intragenic AR,no
+DTB-266-BL,Intragenic AR,no
+01115154-TA1,Enhancer TD,yes
+01115156-TA1,Enhancer TD,yes
+01115156-TC5,Enhancer TD,yes
+01115157-TA3,Enhancer TD,no
+01115157-TC3,Enhancer TD,no
+01115183-TA1,Enhancer TD,no
+01115202-TC2,Enhancer TD,yes
+01115244-TA3,Enhancer TD,yes
+01115248-TA3,Enhancer TD,yes
+01115249-TC5,Enhancer TD,yes
+01115257-TA4,Enhancer TD,no
+01115263-TA3,Enhancer TD,no
+01115284-TA9,Enhancer TD,yes
+01115326-TA3,Enhancer TD,no
+01115374-TA2,Enhancer TD,yes
+01115378-TA2,Enhancer TD,no
+01115414-TA1,Enhancer TD,yes
+01115444-TA5,Enhancer TD,no
+01115468-TA3,Enhancer TD,no
+01115503-TC2,Enhancer TD,yes
+01115525-TA1,Enhancer TD,no
+01115531-TA4,Enhancer TD,yes
+01115549-TA4,Enhancer TD,no
+01115554-TA2,Enhancer TD,yes
+01115556-TC1,Enhancer TD,no
+01115569-TC1,Enhancer TD,no
+01115574-TC3,Enhancer TD,yes
+01115576-TC2,Enhancer TD,no
+01115577-TC1,Enhancer TD,no
+01115578-TC4,Enhancer TD,no
+01115581-TA3,Enhancer TD,no
+01115589-TC2,Enhancer TD,no
+01115606-TA2,Enhancer TD,yes
+01115644-TA1,Enhancer TD,no
+01115655-TA1,Enhancer TD,no
+01115655-TC1,Enhancer TD,no
+01115668-TA4,Enhancer TD,no
+01115669-TA3,Enhancer TD,no
+06115115-T,Enhancer TD,yes
+06115117-T,Enhancer TD,yes
+06115118-T,Enhancer TD,yes
+6115233-T-C1,Enhancer TD,yes
+DTB-003-BL,Enhancer TD,no
+DTB-005-BL,Enhancer TD,no
+DTB-008-BL,Enhancer TD,yes
+DTB-009-BL,Enhancer TD,no
+DTB-011-BL,Enhancer TD,no
+DTB-018-BL,Enhancer TD,no
+DTB-019-PRO,Enhancer TD,yes
+DTB-020-BL,Enhancer TD,no
+DTB-021-BL,Enhancer TD,yes
+DTB-022-BL,Enhancer TD,yes
+DTB-023-BL,Enhancer TD,yes
+DTB-024-PRO,Enhancer TD,yes
+DTB-034-BL,Enhancer TD,yes
+DTB-035-BL,Enhancer TD,yes
+DTB-036-BL,Enhancer TD,no
+DTB-037-BL,Enhancer TD,yes
+DTB-040-BL,Enhancer TD,no
+DTB-042-BL,Enhancer TD,yes
+DTB-053-BL,Enhancer TD,no
+DTB-055-PRO,Enhancer TD,no
+DTB-059-BL,Enhancer TD,no
+DTB-060-BL,Enhancer TD,no
+DTB-061-BL,Enhancer TD,no
+DTB-063-BL,Enhancer TD,no
+DTB-064-BL,Enhancer TD,yes
+DTB-067-PRO,Enhancer TD,no
+DTB-069-BL,Enhancer TD,yes
+DTB-071-BL,Enhancer TD,yes
+DTB-074-BL,Enhancer TD,no
+DTB-077-PRO,Enhancer TD,yes
+DTB-080-BL,Enhancer TD,no
+DTB-083-BL,Enhancer TD,yes
+DTB-085-BL,Enhancer TD,no
+DTB-089-BL,Enhancer TD,no
+DTB-090-PRO,Enhancer TD,no
+DTB-091-BL,Enhancer TD,no
+DTB-092-BL,Enhancer TD,no
+DTB-094-BL,Enhancer TD,no
+DTB-097-PRO,Enhancer TD,no
+DTB-098-PRO2,Enhancer TD,no
+DTB-100-BL,Enhancer TD,yes
+DTB-101-BL,Enhancer TD,no
+DTB-102-PRO,Enhancer TD,no
+DTB-104-BL,Enhancer TD,yes
+DTB-111-PRO,Enhancer TD,no
+DTB-112-BL,Enhancer TD,no
+DTB-119-PRO,Enhancer TD,yes
+DTB-121-BL,Enhancer TD,no
+DTB-124-BL,Enhancer TD,no
+DTB-126-BL,Enhancer TD,no
+DTB-127-PRO,Enhancer TD,yes
+DTB-128-BL,Enhancer TD,yes
+DTB-129-BL,Enhancer TD,yes
+DTB-132-BL,Enhancer TD,yes
+DTB-135-PRO,Enhancer TD,no
+DTB-137-PRO,Enhancer TD,no
+DTB-138-BL,Enhancer TD,yes
+DTB-140-BL,Enhancer TD,yes
+DTB-141-BL,Enhancer TD,no
+DTB-143-BL,Enhancer TD,yes
+DTB-146-BL,Enhancer TD,yes
+DTB-149-BL,Enhancer TD,no
+DTB-151-BL,Enhancer TD,no
+DTB-156-BL,Enhancer TD,no
+DTB-159-BL,Enhancer TD,no
+DTB-165-PRO,Enhancer TD,yes
+DTB-167-PRO,Enhancer TD,no
+DTB-170-BL,Enhancer TD,yes
+DTB-172-BL,Enhancer TD,no
+DTB-173-BL,Enhancer TD,no
+DTB-175-BL,Enhancer TD,yes
+DTB-176-BL,Enhancer TD,yes
+DTB-183-BL,Enhancer TD,no
+DTB-186-BL,Enhancer TD,no
+DTB-187-BL,Enhancer TD,yes
+DTB-188-BL,Enhancer TD,no
+DTB-190-BL,Enhancer TD,no
+DTB-193-BL,Enhancer TD,yes
+DTB-194-PRO,Enhancer TD,no
+DTB-201-PRO,Enhancer TD,yes
+DTB-202-BL,Enhancer TD,no
+DTB-204-BL,Enhancer TD,no
+DTB-205-BL,Enhancer TD,yes
+DTB-206-BL,Enhancer TD,yes
+DTB-210-BL,Enhancer TD,no
+DTB-213-BL,Enhancer TD,no
+DTB-214-BL,Enhancer TD,yes
+DTB-216-PRO,Enhancer TD,no
+DTB-220-BL,Enhancer TD,yes
+DTB-222-BL,Enhancer TD,no
+DTB-223-BL,Enhancer TD,no
+DTB-232-PRO,Enhancer TD,no
+DTB-234-BL,Enhancer TD,yes
+DTB-251-BL,Enhancer TD,yes
+DTB-252-BL,Enhancer TD,yes
+DTB-255-BL,Enhancer TD,no
+DTB-258-BL,Enhancer TD,yes
+DTB-260-BL,Enhancer TD,yes
+DTB-261-BL,Enhancer TD,yes
+DTB-265-PRO,Enhancer TD,no
+DTB-266-BL,Enhancer TD,no
+01115154-TA1,Enhancer/AR status,Coamplification
+01115156-TA1,Enhancer/AR status,Selective Enhancer
+01115156-TC5,Enhancer/AR status,Selective Enhancer
+01115157-TA3,Enhancer/AR status,Coamplification
+01115157-TC3,Enhancer/AR status,Coamplification
+01115183-TA1,Enhancer/AR status,Coamplification
+01115202-TC2,Enhancer/AR status,Coamplification
+01115244-TA3,Enhancer/AR status,Selective Enhancer
+01115248-TA3,Enhancer/AR status,Coamplification
+01115249-TC5,Enhancer/AR status,Coamplification
+01115257-TA4,Enhancer/AR status,Coamplification
+01115263-TA3,Enhancer/AR status,No amplification
+01115284-TA9,Enhancer/AR status,Coamplification
+01115326-TA3,Enhancer/AR status,Coamplification
+01115374-TA2,Enhancer/AR status,Coamplification
+01115378-TA2,Enhancer/AR status,No amplification
+01115414-TA1,Enhancer/AR status,Coamplification
+01115444-TA5,Enhancer/AR status,Coamplification
+01115468-TA3,Enhancer/AR status,No amplification
+01115503-TC2,Enhancer/AR status,Coamplification
+01115525-TA1,Enhancer/AR status,Coamplification
+01115531-TA4,Enhancer/AR status,Selective Enhancer
+01115549-TA4,Enhancer/AR status,No amplification
+01115554-TA2,Enhancer/AR status,Coamplification
+01115556-TC1,Enhancer/AR status,Selective Enhancer
+01115569-TC1,Enhancer/AR status,Coamplification
+01115574-TC3,Enhancer/AR status,Coamplification
+01115576-TC2,Enhancer/AR status,No amplification
+01115577-TC1,Enhancer/AR status,Coamplification
+01115578-TC4,Enhancer/AR status,Coamplification
+01115581-TA3,Enhancer/AR status,Coamplification
+01115589-TC2,Enhancer/AR status,No amplification
+01115606-TA2,Enhancer/AR status,Coamplification
+01115644-TA1,Enhancer/AR status,Selective AR
+01115655-TA1,Enhancer/AR status,Coamplification
+01115655-TC1,Enhancer/AR status,Coamplification
+01115668-TA4,Enhancer/AR status,Coamplification
+01115669-TA3,Enhancer/AR status,Coamplification
+06115115-T,Enhancer/AR status,Coamplification
+06115117-T,Enhancer/AR status,Coamplification
+06115118-T,Enhancer/AR status,Coamplification
+6115233-T-C1,Enhancer/AR status,Selective Enhancer
+DTB-003-BL,Enhancer/AR status,No amplification
+DTB-005-BL,Enhancer/AR status,Coamplification
+DTB-008-BL,Enhancer/AR status,Selective Enhancer
+DTB-009-BL,Enhancer/AR status,Coamplification
+DTB-011-BL,Enhancer/AR status,No amplification
+DTB-018-BL,Enhancer/AR status,Coamplification
+DTB-019-PRO,Enhancer/AR status,Coamplification
+DTB-020-BL,Enhancer/AR status,Selective AR
+DTB-021-BL,Enhancer/AR status,Coamplification
+DTB-022-BL,Enhancer/AR status,Selective Enhancer
+DTB-023-BL,Enhancer/AR status,Coamplification
+DTB-024-PRO,Enhancer/AR status,Coamplification
+DTB-034-BL,Enhancer/AR status,Coamplification
+DTB-035-BL,Enhancer/AR status,Coamplification
+DTB-036-BL,Enhancer/AR status,No amplification
+DTB-037-BL,Enhancer/AR status,Coamplification
+DTB-040-BL,Enhancer/AR status,No amplification
+DTB-042-BL,Enhancer/AR status,Coamplification
+DTB-053-BL,Enhancer/AR status,No amplification
+DTB-055-PRO,Enhancer/AR status,No amplification
+DTB-059-BL,Enhancer/AR status,Coamplification
+DTB-060-BL,Enhancer/AR status,Coamplification
+DTB-061-BL,Enhancer/AR status,Coamplification
+DTB-063-BL,Enhancer/AR status,Coamplification
+DTB-064-BL,Enhancer/AR status,Coamplification
+DTB-067-PRO,Enhancer/AR status,No amplification
+DTB-069-BL,Enhancer/AR status,Coamplification
+DTB-071-BL,Enhancer/AR status,Coamplification
+DTB-074-BL,Enhancer/AR status,No amplification
+DTB-077-PRO,Enhancer/AR status,Coamplification
+DTB-080-BL,Enhancer/AR status,Coamplification
+DTB-083-BL,Enhancer/AR status,Selective Enhancer
+DTB-085-BL,Enhancer/AR status,Coamplification
+DTB-089-BL,Enhancer/AR status,Coamplification
+DTB-090-PRO,Enhancer/AR status,Coamplification
+DTB-091-BL,Enhancer/AR status,Coamplification
+DTB-092-BL,Enhancer/AR status,Coamplification
+DTB-094-BL,Enhancer/AR status,Coamplification
+DTB-097-PRO,Enhancer/AR status,Coamplification
+DTB-098-PRO2,Enhancer/AR status,No amplification
+DTB-100-BL,Enhancer/AR status,Coamplification
+DTB-101-BL,Enhancer/AR status,Coamplification
+DTB-102-PRO,Enhancer/AR status,Coamplification
+DTB-104-BL,Enhancer/AR status,Coamplification
+DTB-111-PRO,Enhancer/AR status,Coamplification
+DTB-112-BL,Enhancer/AR status,Coamplification
+DTB-119-PRO,Enhancer/AR status,Coamplification
+DTB-121-BL,Enhancer/AR status,No amplification
+DTB-124-BL,Enhancer/AR status,No amplification
+DTB-126-BL,Enhancer/AR status,Coamplification
+DTB-127-PRO,Enhancer/AR status,Selective Enhancer
+DTB-128-BL,Enhancer/AR status,Coamplification
+DTB-129-BL,Enhancer/AR status,Selective Enhancer
+DTB-132-BL,Enhancer/AR status,Selective Enhancer
+DTB-135-PRO,Enhancer/AR status,No amplification
+DTB-137-PRO,Enhancer/AR status,Coamplification
+DTB-138-BL,Enhancer/AR status,Coamplification
+DTB-140-BL,Enhancer/AR status,Coamplification
+DTB-141-BL,Enhancer/AR status,Coamplification
+DTB-143-BL,Enhancer/AR status,Coamplification
+DTB-146-BL,Enhancer/AR status,Coamplification
+DTB-149-BL,Enhancer/AR status,Coamplification
+DTB-151-BL,Enhancer/AR status,Coamplification
+DTB-156-BL,Enhancer/AR status,Coamplification
+DTB-159-BL,Enhancer/AR status,Selective AR
+DTB-165-PRO,Enhancer/AR status,Coamplification
+DTB-167-PRO,Enhancer/AR status,Coamplification
+DTB-170-BL,Enhancer/AR status,Coamplification
+DTB-172-BL,Enhancer/AR status,Coamplification
+DTB-173-BL,Enhancer/AR status,Coamplification
+DTB-175-BL,Enhancer/AR status,Coamplification
+DTB-176-BL,Enhancer/AR status,Coamplification
+DTB-183-BL,Enhancer/AR status,Coamplification
+DTB-186-BL,Enhancer/AR status,Coamplification
+DTB-187-BL,Enhancer/AR status,Selective Enhancer
+DTB-188-BL,Enhancer/AR status,No amplification
+DTB-190-BL,Enhancer/AR status,Coamplification
+DTB-193-BL,Enhancer/AR status,Coamplification
+DTB-194-PRO,Enhancer/AR status,No amplification
+DTB-201-PRO,Enhancer/AR status,Coamplification
+DTB-202-BL,Enhancer/AR status,Coamplification
+DTB-204-BL,Enhancer/AR status,No amplification
+DTB-205-BL,Enhancer/AR status,Selective Enhancer
+DTB-206-BL,Enhancer/AR status,Coamplification
+DTB-210-BL,Enhancer/AR status,Selective AR
+DTB-213-BL,Enhancer/AR status,No amplification
+DTB-214-BL,Enhancer/AR status,Coamplification
+DTB-216-PRO,Enhancer/AR status,Coamplification
+DTB-220-BL,Enhancer/AR status,Coamplification
+DTB-222-BL,Enhancer/AR status,No amplification
+DTB-223-BL,Enhancer/AR status,Coamplification
+DTB-232-PRO,Enhancer/AR status,Coamplification
+DTB-234-BL,Enhancer/AR status,Selective Enhancer
+DTB-251-BL,Enhancer/AR status,Coamplification
+DTB-252-BL,Enhancer/AR status,Coamplification
+DTB-255-BL,Enhancer/AR status,Coamplification
+DTB-258-BL,Enhancer/AR status,Coamplification
+DTB-260-BL,Enhancer/AR status,Selective Enhancer
+DTB-261-BL,Enhancer/AR status,Selective Enhancer
+DTB-265-PRO,Enhancer/AR status,Coamplification
+DTB-266-BL,Enhancer/AR status,Coamplification

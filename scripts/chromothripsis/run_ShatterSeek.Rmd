@@ -1,0 +1,215 @@
+---
+title: "Locating Chromothripsis Events with ShatterSeek"
+author: "Kelsey Luu"
+date: "3/15/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(gridExtra)
+library(cowplot)
+library(tidyverse)
+library(ggplot2)
+library(gplots)
+library(scales)
+library(data.table)
+```
+
+
+### Pre-process data
+```{r, eval=F}
+# read in SV and CN dfs:
+SV_file <- "inputs/WCDT101_svaba-titan.bedpe"
+CN_file <- "inputs/CRPC10X42-WCDT101_titanIchor.seg.joined.txt"
+primary <- FALSE  # TRUE for primary tumors
+SV_df <- read.table(SV_file, header = T, sep = '\t')
+CN_df <- read.table(CN_file, header = T, sep = '\t') %>% mutate(len = End - Start)
+
+all_samples <- as.character(CN_df$Sample) %>% unique()
+
+if (exists("SV_df") & exists("CN_df")) {
+  if (primary) {
+    # set col names (only for primary tumors)
+    names(SV_df)[c(1:6, 9:11)] <- c("chrom1", "start1", "end1",
+                                    "chrom2", "start2", "end2",
+                                    "strand1", "strand2", "Sample")
+    names(CN_df) <- c("Sample", "Chromosome", "Start", "End", "Corrected_Copy_Number", "Length")
+  }
+  
+  # fix chromosome numbers
+  SV_df$chrom1 <- gsub("[^(0-9) | X]", "",  SV_df$chrom1) 
+  SV_df$chrom2 <- gsub("[^(0-9) | X]", "",  SV_df$chrom2)
+  CN_df$Chromosome <- gsub("[^(0-9) | X]", "",  CN_df$Chromosome)
+  chrs <- c(1:22, "X")  # only include chr1~22 and X
+  SV_df <- SV_df %>% filter(chrom1 %in% chrs, chrom2 %in% chrs)
+  CN_df <- CN_df %>% filter(Chromosome %in% chrs, !is.na(Corrected_Copy_Number))
+  
+  #  add SV class to SV_df
+  DUP_id <- which(SV_df[,"strand1"] == "-" & SV_df[,"strand2"] == "+")
+  DEL_id <- which(SV_df[,"strand1"] == "+" & SV_df[,"strand2"] == "-")
+  h2hINV_id <- which(SV_df[,"strand1"] == "+" & SV_df[,"strand2"] == "+")
+  t2tINV_id <- which(SV_df[,"strand1"] == "-" & SV_df[,"strand2"] == "-")
+  SV_df[DUP_id,"SVtype"] <- "DUP"
+  SV_df[DEL_id,"SVtype"] <-"DEL"
+  SV_df[h2hINV_id,"SVtype"] <- "h2hINV"
+  SV_df[t2tINV_id,"SVtype"] <- "t2tINV"
+}
+
+# run ../scripts/join_CNsegments.R on all.seg.smooth.txt and read in output
+CN_df <- fread(sprintf('inputs/%s.joined.txt', gsub(".txt", "", basename(CN_file))))
+```
+
+
+###  Run shatterseek 
+```{r, eval=F}
+chromoth_list <- list()
+for (sample in all_samples) {
+  # subset sample
+  sample_SV <- SV_df %>% filter(Sample == sample) 
+  sample_CN <- CN_df %>% filter(Sample == sample)
+  
+  # load SV data into SV object
+  SV_data <- SVs(chrom1=as.character(sample_SV$chrom1),
+                 pos1=as.numeric(sample_SV$start1),
+                 chrom2=as.character(sample_SV$chrom2),
+                 pos2=as.numeric(sample_SV$end2),
+                 strand1=as.character(sample_SV$strand1),
+                 strand2=as.character(sample_SV$strand2),
+                 SVtype=as.character(sample_SV$SVtype))
+  
+  # load CNV data into CSVsegs object
+  CN_data <- CNVsegs(chrom=as.character(sample_CN$Chromosome),
+                     start=sample_CN$Start,
+                     end=sample_CN$End,
+                     total_cn=sample_CN$Corrected_Copy_Number)
+  
+  # find chromothripsis
+  start_time <- Sys.time()
+  chromothripsis <- shatterseek(SV.sample=SV_data, seg.sample=CN_data)
+  chromothripsis@chromSummary <- chromothripsis@chromSummary %>% mutate(sample=sample)
+  end_time <- Sys.time()
+  print(paste0("Running time (s): ", round(end_time - start_time, digits=2)))
+  
+  # save chromoth object
+  chromoth_list <- c(chromoth_list, chromothripsis)
+}
+
+# save output to rds
+# saveRDS(chromoth_list, file = "outputs/shatterseek_chromoth_out.seg.joined.RDS")
+```
+
+
+### Save shatterseek plots to pdf
+```{r, eval=F}
+fig_dir <- "./plots/ShatterSeek_plots/all_plots/"
+
+chrom_plot <- function(chromo_obj, chr) {
+  plots = plot_chromothripsis(ShatterSeek_output = chromo_obj,chr = chr)
+  plot_out = arrangeGrob(plots[[1]],
+                         plots[[2]],
+                         plots[[3]],
+                         plots[[4]],
+                         nrow=4,ncol=1,heights=c(0.2,.4,.4,.4))
+  return(plot_out)
+}
+
+for (chrom_obj in chromoth_list) {
+  df <- chrom_obj@chromSummary[!is.na(chrom_obj@chromSummary$start),]
+  sample_id <- df$sample[1]
+  plotdir <- paste0(fig_dir, sample_id)
+  dir.create(plotdir)
+  for (chr in df$chrom) {
+    figpath <- paste0(plotdir, "/", sample_id, "-chr", chr, ".pdf")
+    pdf(figpath)
+    plot(chrom_plot(chromo_obj = chrom_obj, chr = chr))
+    dev.off()
+  }
+}
+```
+
+
+## Filtering criteria for WCDT
+### Compile summary table with confidence classifications
+
+For WCDT filtering, we adopted and refined confidence classification criteria from the ShatterSeek documentation: https://github.com/parklab/ShatterSeek/blob/master/tutorial.pdf 
+```{r, eval=F}
+summary_df_list <- lapply(chromoth_list,
+                          function(x) x@chromSummary %>% filter(!is.na(start)))
+alpha <- 0.05  # significance threshold
+
+full_summary <- bind_rows(summary_df_list) %>%
+  mutate(confidence =
+    case_when(
+      clusterSize_including_TRA - number_TRA >= 10 &
+        max_number_oscillating_CN_segments_2_states >= 10 &
+        (chr_breakpoint_enrichment <= alpha | pval_exp_cluster <= alpha)
+      ~ "high",
+      clusterSize_including_TRA - number_TRA >= 3 &
+        number_TRA >= 4 &
+        max_number_oscillating_CN_segments_2_states >= 7 &
+        (chr_breakpoint_enrichment <= alpha | pval_exp_cluster <= alpha)
+      ~ "medium",
+      clusterSize_including_TRA - number_TRA >= 6 &
+        between(max_number_oscillating_CN_segments_2_states, 4, 6) &
+        (chr_breakpoint_enrichment <= alpha  | pval_exp_cluster <= alpha)
+      ~ "low"
+    )
+  ) %>% mutate(confidence = factor(confidence, levels = c("high", "medium", "low"))) %>%
+  mutate(chrom = factor(chrom, levels = c(1:22, "X"))) 
+
+
+# write all calls to summary table:
+# full_summary %>% write.csv("outputs/prefilter_shatterseek_summary_table.seg.joined.csv", row.names = F)
+
+# write putative real calls to summary table: 
+# write.csv(full_summary %>% filter(!is.na(confidence)), "outputs/filtered_shatterseek_summary_table.seg.joined.csv", row.names = F)
+```
+
+
+## Filtering criteria for primary tumors & 10X
+### Compile summary table with confidence classifications
+
+For primary tumors and 10X, the above criteria yielded too many false positives. We suspected this was due to oversensitivity to CN oscillations. We instead filter these calls based on a weighted score that is primarily determined by the number of SVs in a cluster, with less weight given to CN oscillations.
+```{r, eval=F}
+summary_df_list <- lapply(chromoth_list,
+                          function(x) x@chromSummary %>% filter(!is.na(start)))
+alpha <- 0.05  # significance threshold
+
+full_summary <- bind_rows(summary_df_list) %>%
+    mutate(score =
+             0.6 * as.integer(clusterSize_including_TRA - number_TRA >= 10) +
+             0.2 * as.integer(max_number_oscillating_CN_segments_2_states >= 7 |
+                        max_number_oscillating_CN_segments_3_states >= 14
+                        ) +
+             0.1 * as.integer(chr_breakpoint_enrichment < alpha) +
+             0.1 * as.integer(pval_exp_chr < alpha)
+    ) %>%
+    mutate(confidence = case_when(
+      score >= 0.8 ~ "high",
+      score >= 0.7 ~ "medium",
+      score >= 0.4 ~ "low"
+    )
+  ) %>% mutate(confidence = factor(confidence, levels = c("high", "medium", "low"))) %>%
+  mutate(chrom = factor(chrom, levels = c(1:22, "X"))) 
+
+
+# write all calls to summary table:
+# full_summary %>% write.csv("outputs/prefilter_shatterseek_summary_table.seg.joined.csv", row.names = F)
+
+# write putative real calls to summary table: 
+# full_summary %>% filter(score >= 0.4) %>% write.csv("outputs/filtered_shatterseek_summary_table.seg.joined.csv", row.names = F)
+```
+
+
+### Visualize confidence distribution
+```{r, eval=F}
+full_summary %>% 
+  filter(!is.na(confidence)) %>%
+  ggplot() +
+  geom_bar(aes(x = confidence)) +
+  geom_text(stat="count", aes(x=confidence, label=..count..), vjust=-0.3) +
+  labs(title = "Confidence Distribution")
+# ggsave("plots/summary_plots/confidence_dist.pdf", height=5, width=6)
+```
+
+After this workflow, we manually curated the filtered ShatterSeek calls. 

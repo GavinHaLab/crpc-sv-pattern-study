@@ -1,0 +1,112 @@
+#This takes complied annotation data (sample by alterations) with SV cluster information
+
+library(data.table)
+library(dplyr)
+library(plyr)
+library(tidyr)
+
+library(summarytools) 
+library(descr)
+library(DescTools)
+library(pwr)
+
+sv_sig_annot_dat = fread("compiled_annotation_data_by_sample.txt")
+
+filt_annot = sv_sig_annot_dat %>%
+			select(contains('_cna_') | ends_with('cluster') | ends_with('_mutation') | contains('chromoplexy') | contains('chromothripsis')
+			| contains('ets_all') | contains('erg_all')| contains('etv1_all')| contains('etv5_all')| contains('etv4_all')) %>%  #combine SV gene + flank (208 tests) 
+			select(-ends_with('_chromothripsis')) %>%
+			select(-ends_with('_chromoplexy')) 
+
+filt_annot[is.na(ets_all) ,ets_non := 1]
+
+
+filt_annot[filt_annot==""] = NA
+
+filt_annot = mutate_all(filt_annot, function(x) as.numeric(as.character(x)))
+
+cluster_size = as.data.table(filt_annot %>% 
+				group_by(cluster) %>%  
+				dplyr::summarise(n = n()))
+
+total_sample_size =  nrow(filt_annot)
+
+summary_table = ddply(filt_annot, .(cluster), numcolwise(sum), na.rm=T)
+
+#wide to long
+long_summary_table <- summary_table %>% 
+			gather(type, value, -c(cluster))
+
+
+df <- xtabs(value ~ cluster+type, data = long_summary_table)
+
+
+############# proportion test 
+# CHI-SQUARE TEST OF HOMOGENEITY
+
+pval_all <- list()
+qval_all <- list()
+
+for(c in c(1:9)){
+	message("============")		
+	message("for cluster: ",c)
+	p.values <- vector()
+	results <- list()
+	power_values <- vector()
+
+	ncluster <- cluster_size[cluster==c, n] 
+
+	for (i in seq(ncol(df))) {
+
+	    test.df <- df[,i,drop=F]
+	    tested.type <- colnames(df)[i]
+	    colnames(test.df) <- c(tested.type) # for clarity
+
+	    success_in_sample <- test.df[c,]
+	    success_in_left <- as.vector(apply(test.df[-c,,drop=F],2,sum))
+	    
+	    failuare_in_sample <- ncluster - success_in_sample
+	    failuare_in_left <- total_sample_size - (success_in_sample + success_in_left + failuare_in_sample)
+
+	    xtab <- cbind(rbind(success_in_sample,success_in_left), rbind(failuare_in_sample,failuare_in_left))
+
+		test.res <- prop.test(xtab, alternative="greater", correct = T) #continuity correction
+		#test.res <- chisq.test(xtab) #this is equivalent to prop.test above
+
+	    p.values[i] <- test.res$p.value
+		names(p.values)[i] <- paste0(tested.type)
+
+		#calculate the effect size parameter w.
+		#A value of φ  = 0.1 is considered to be a small effect, 0.3 a medium effect, and 0.5 a large effect.
+		w = Phi(xtab)
+		
+		#power test
+		# The rule of thumb for power analysis is typically that we seek to have a test with power of 0.8
+		# we want an 80% chance of finding the effect if it really is there, with a p-value of 5% chance of finding an effect that is not there. 
+		pwr_test = pwr.chisq.test(w = w, N = total_sample_size, df = 1, sig.level = 0.05, power = NULL)
+		power_values[i] <- pwr_test$power
+
+
+		results[[i]] <- cbind(tested.type, success_in_sample, failuare_in_sample, success_in_left, failuare_in_left, test.res$p.value, w, pwr_test$power)
+	}
+		qval <- p.adjust(p.values, method = "fdr")
+		
+		rbind_results_per_cluster = as.data.frame(do.call("rbind",results))
+		colnames(rbind_results_per_cluster) = c("alteration_type","gene_Exist.cluster","gene_notExist.cluster","gene_Exist.other","gene_notExist.other","pval","effect_size","power")
+		rbind_results_per_cluster[,"qval"] = qval
+		
+		sort_out = rbind_results_per_cluster[order(rbind_results_per_cluster[,"pval"],decreasing=F),]
+		colnames(sort_out) = c("alteration_type","gene_Exist.cluster","gene_notExist.cluster","gene_Exist.other","gene_notExist.other","pval","effect_size","power","qval")
+		write.table(sort_out, sprintf("chiSqTest_for_cluster_%d_for_alteration_status_with_details.txt",c), sep="\t", col.names=T, row.names=F, quote=F)
+
+		message("Adjusted pval by fdr")
+		print(qval[qval < 0.25])
+
+		out_test = as.data.frame(cbind(qval, p.values))
+		out_test = tibble::rownames_to_column(out_test, "alteration")
+		sort_out_test = out_test[order(out_test[,"qval"],decreasing=F),]
+		write.table(sort_out_test, sprintf("chiSqTest_for_cluster_%d_for_alteration_status.txt",c), sep="\t", col.names=T, row.names=F, quote=F)
+
+		pval_all[[c]] = p.values
+		qval_all[[c]] = qval
+}

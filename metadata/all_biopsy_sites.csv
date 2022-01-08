@@ -1,0 +1,147 @@
+sample,category,value
+DTB-003-BL,Biopsy site,Liver
+DTB-005-BL,Biopsy site,Bone
+DTB-008-BL,Biopsy site,Bone
+DTB-009-BL,Biopsy site,Bone
+DTB-011-BL,Biopsy site,Lymph node
+DTB-018-BL,Biopsy site,Lymph node
+DTB-019-PRO,Biopsy site,Bone
+DTB-020-BL,Biopsy site,Liver
+DTB-021-BL,Biopsy site,Bone
+DTB-022-BL,Biopsy site,Bone
+DTB-023-BL,Biopsy site,Lymph node
+DTB-024-PRO,Biopsy site,Liver
+DTB-034-BL,Biopsy site,Lymph node
+DTB-035-BL,Biopsy site,Lymph node
+DTB-036-BL,Biopsy site,Lymph node
+DTB-037-BL,Biopsy site,Bone
+DTB-040-BL,Biopsy site,Liver
+DTB-042-BL,Biopsy site,Bone
+DTB-053-BL,Biopsy site,Bone
+DTB-055-PRO,Biopsy site,Soft tissue
+DTB-059-BL,Biopsy site,Liver
+DTB-060-BL,Biopsy site,Soft tissue
+DTB-061-BL,Biopsy site,Liver
+DTB-063-BL,Biopsy site,Lymph node
+DTB-064-BL,Biopsy site,Bone
+DTB-067-PRO,Biopsy site,Liver
+DTB-069-BL,Biopsy site,Lymph node
+DTB-071-BL,Biopsy site,Lymph node
+DTB-074-BL,Biopsy site,Bone
+DTB-077-PRO,Biopsy site,Bone
+DTB-080-BL,Biopsy site,Lymph node
+DTB-083-BL,Biopsy site,Lymph node
+DTB-085-BL,Biopsy site,Lymph node
+DTB-089-BL,Biopsy site,Bone
+DTB-090-PRO,Biopsy site,Lymph node
+DTB-091-BL,Biopsy site,Bone
+DTB-092-BL,Biopsy site,Bone
+DTB-094-BL,Biopsy site,Lymph node
+DTB-097-PRO,Biopsy site,Liver
+DTB-098-PRO2,Biopsy site,Lymph node
+DTB-100-BL,Biopsy site,Lymph node
+DTB-101-BL,Biopsy site,Soft tissue
+DTB-102-PRO,Biopsy site,Soft tissue
+DTB-104-BL,Biopsy site,Lymph node
+DTB-111-PRO,Biopsy site,Lymph node
+DTB-112-BL,Biopsy site,Lymph node
+DTB-119-PRO,Biopsy site,Bone
+DTB-121-BL,Biopsy site,Liver
+DTB-124-BL,Biopsy site,Bone
+DTB-126-BL,Biopsy site,Bone
+DTB-127-PRO,Biopsy site,Lymph node
+DTB-128-BL,Biopsy site,Bone
+DTB-129-BL,Biopsy site,Lymph node
+DTB-132-BL,Biopsy site,Soft tissue
+DTB-135-PRO,Biopsy site,Lymph node
+DTB-137-PRO,Biopsy site,Bone
+DTB-138-BL,Biopsy site,Soft tissue
+DTB-140-BL,Biopsy site,Bone
+DTB-141-BL,Biopsy site,Bone
+DTB-143-BL,Biopsy site,Bone
+DTB-146-BL,Biopsy site,Bone
+DTB-149-BL,Biopsy site,Bone
+DTB-151-BL,Biopsy site,Lymph node
+DTB-156-BL,Biopsy site,Bone
+DTB-159-BL,Biopsy site,Bone
+DTB-165-PRO,Biopsy site,Bone
+DTB-167-PRO,Biopsy site,Bone
+DTB-170-BL,Biopsy site,Lymph node
+DTB-172-BL,Biopsy site,Bone
+DTB-173-BL,Biopsy site,Lymph node
+DTB-175-BL,Biopsy site,Liver
+DTB-176-BL,Biopsy site,Soft tissue
+DTB-183-BL,Biopsy site,Lymph node
+DTB-186-BL,Biopsy site,Lymph node
+DTB-187-BL,Biopsy site,Bone
+DTB-188-BL,Biopsy site,Bone
+DTB-190-BL,Biopsy site,Lymph node
+DTB-193-BL,Biopsy site,Lymph node
+DTB-194-PRO,Biopsy site,Bone
+DTB-201-PRO,Biopsy site,Lymph node
+DTB-202-BL,Biopsy site,Liver
+DTB-204-BL,Biopsy site,Bone
+DTB-205-BL,Biopsy site,Lymph node
+DTB-206-BL,Biopsy site,Lymph node
+DTB-210-BL,Biopsy site,Bone
+DTB-213-BL,Biopsy site,Lymph node
+DTB-214-BL,Biopsy site,Bone
+DTB-216-PRO,Biopsy site,Bone
+DTB-220-BL,Biopsy site,Soft tissue
+DTB-222-BL,Biopsy site,Lymph node
+DTB-223-BL,Biopsy site,Lymph node
+DTB-232-PRO,Biopsy site,Bone
+DTB-234-BL,Biopsy site,Lymph node
+DTB-251-BL,Biopsy site,Bone
+DTB-252-BL,Biopsy site,Lymph node
+DTB-255-BL,Biopsy site,Lymph node
+DTB-258-BL,Biopsy site,Bone
+DTB-260-BL,Biopsy site,Bone
+DTB-261-BL,Biopsy site,Bone
+DTB-265-PRO,Biopsy site,Lymph node
+DTB-266-BL,Biopsy site,Bone
+01115149-TC2,Biopsy site,Bone
+01115154-TA1,Biopsy site,Lymph node
+01115156-TA1,Biopsy site,Lymph node
+01115156-TC5,Biopsy site,Lymph node
+01115157-TA3,Biopsy site,Bone
+01115157-TC3,Biopsy site,Liver
+01115183-TA1,Biopsy site,Bone
+01115202-TC2,Biopsy site,Lymph node
+01115244-TA3,Biopsy site,Bone
+01115248-TA3,Biopsy site,Lymph node
+01115249-TC5,Biopsy site,Bone
+01115257-TA4,Biopsy site,Bone
+01115263-TA3,Biopsy site,Bone
+01115284-TA9,Biopsy site,Bone
+01115326-TA3,Biopsy site,Bone
+01115342-TC1,Biopsy site,Bone
+01115372-TA4,Biopsy site,Lymph node
+01115374-TA2,Biopsy site,Lymph node
+01115378-TA2,Biopsy site,Liver
+01115414-TA1,Biopsy site,Liver
+01115444-TA5,Biopsy site,Bone
+01115468-TA3,Biopsy site,Soft tissue
+01115503-TC2,Biopsy site,Lymph node
+01115525-TA1,Biopsy site,Soft tissue
+01115531-TA4,Biopsy site,Bone
+01115549-TA4,Biopsy site,Bone
+01115554-TA2,Biopsy site,Bone
+01115556-TC1,Biopsy site,Bone
+01115569-TC1,Biopsy site,Bone
+01115574-TC3,Biopsy site,Lymph node
+01115576-TC2,Biopsy site,Liver
+01115577-TC1,Biopsy site,Bone
+01115578-TC4,Biopsy site,Bone
+01115581-TA3,Biopsy site,Bone
+01115589-TC2,Biopsy site,Bone
+01115606-TA2,Biopsy site,Lymph node
+01115644-TA1,Biopsy site,Bone
+01115655-TA1,Biopsy site,Lymph node
+01115655-TC1,Biopsy site,Lymph node
+01115668-TA4,Biopsy site,Lymph node
+01115669-TA3,Biopsy site,Bone
+06115115-T,Biopsy site,Absent
+06115117-T,Biopsy site,Absent
+06115118-T,Biopsy site,Absent
+6115233-T-C1,Biopsy site,Absent

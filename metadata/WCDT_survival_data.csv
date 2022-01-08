@@ -1,0 +1,102 @@
+Patient.ID,Death.or.Last.Contact,Death.Event,OS.mCRPC.days
+DTB-003,Death,1,1499
+DTB-005,Death,1,1082
+DTB-008,Death,1,1287
+DTB-009,Death,1,455
+DTB-011,Last Contact,0,2092
+DTB-018,Death,1,2508
+DTB-019,Death,1,1031
+DTB-020,Death,1,572
+DTB-021,Last Contact,0,1680
+DTB-022,Death,1,1281
+DTB-023,Last Contact,0,2125
+DTB-024,Death,1,667
+DTB-034,Death,1,1523
+DTB-035,Death,1,910
+DTB-036,Death,1,267
+DTB-037,Death,1,1707
+DTB-040,Death,1,213
+DTB-042,Death,1,1244
+DTB-053,Death,1,402
+DTB-055,Death,1,1081
+DTB-059,Death,1,2614
+DTB-060,Death,1,1833
+DTB-061,Death,1,285
+DTB-063,Last Contact,0,2027
+DTB-064,Last Contact,0,NA
+DTB-067,Death,1,1507
+DTB-069,Death,1,1113
+DTB-071,Death,1,267
+DTB-074,Death,1,3257
+DTB-077,Last Contact,0,1315
+DTB-080,Death,1,600
+DTB-083,Death,1,1741
+DTB-085,Death,1,1267
+DTB-089,Death,1,1047
+DTB-090,Last Contact,0,2236
+DTB-091,Death,1,254
+DTB-092,Death,1,954
+DTB-094,Death,1,2351
+DTB-097,Death,1,343
+DTB-098,Death,1,979
+DTB-100,Death,1,2494
+DTB-101,Death,1,2670
+DTB-102,Death,1,1820
+DTB-104,Death,1,2032
+DTB-111,Death,1,1496
+DTB-112,Last contact ,0,3045
+DTB-119,Death,1,NA
+DTB-121,Death,1,733
+DTB-124,Death,1,512
+DTB-126,Death,1,387
+DTB-127,Death,1,908
+DTB-128,Last contact,0,950
+DTB-129,Death,1,718
+DTB-132,Last contact,0,1249
+DTB-135,Death,1,236
+DTB-137,Death,1,771
+DTB-138,Death,1,NA
+DTB-140,Death,1,619
+DTB-141,Death,1,860
+DTB-143,Last contact,0,1068
+DTB-146,Death,1,1342
+DTB-149,Death,1,498
+DTB-151,Death,1,700
+DTB-156,Death,1,493
+DTB-159,Last contact,0,1904
+DTB-165,Death,1,807
+DTB-167,Last contact,0,2028
+DTB-170,Last contact,0,217
+DTB-172,Death,1,580
+DTB-173,Last contact,0,1223
+DTB-175,Death,1,941
+DTB-176,Last contact,0,1106
+DTB-183,Death,1,935
+DTB-186,Death,1,1278
+DTB-187,Last contact,0,1043
+DTB-188,Death,1,2593
+DTB-190,Last contact,0,2235
+DTB-193,Last contact,0,1621
+DTB-194,Death,1,1406
+DTB-201,Death,1,482
+DTB-202,Death,1,354
+DTB-204,Last contact,0,841
+DTB-205,Last contact,0,1614
+DTB-206,Death,1,469
+DTB-210,Death,1,362
+DTB-213,Last contact,0,715
+DTB-214,Death,1,304
+DTB-216,Death,1,461
+DTB-220,Death,1,374
+DTB-222,Death,1,1259
+DTB-223,Last contact,0,590
+DTB-232,Last contact,0,478
+DTB-234,Death,1,1799
+DTB-251,Last contact,0,343
+DTB-252,Last contact,0,491
+DTB-255,Last contact,0,543
+DTB-258,Last contact,0,1232
+DTB-260,Last contact,0,476
+DTB-261,Last contact,0,406
+DTB-265,Last contact,0,266
+DTB-266,Last contact,0,645
