@@ -1,0 +1,11 @@
+#samples.yaml for lolopicker.snakefile
+#Ha Lab
+#Fred Hutchinson Cancer Research Center
+
+#although matched_normal_name is not needed for lolopicker.snakefile, this is
+#the samples.yaml format used for mutect2, which is run before lolopicker.
+#to minimize set-up work by keeping the samples.yaml file the same, I have
+#included matched_normal_name here, as well
+samples: #format is tumor_name: [tumor_filepath, matched_normal_name, matched_normal_filepath]
+    tumor1_name: [/path/to/tumor1_name.bam, matched_normal1_name, /path/to/matched_normal1_name.bam]
+    tumor2_name: [/path/to/tumor2_name.bam, matched_normal2_name, /path/to/matched_normal2_name.bam]

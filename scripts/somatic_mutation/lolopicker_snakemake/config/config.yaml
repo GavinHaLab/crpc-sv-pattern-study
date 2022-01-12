@@ -1,0 +1,23 @@
+#config.yaml for lolopicker.snakefile
+
+#Ha Lab
+#Fred Hutchinson Cancer Research Center
+
+#SELECT tsv file of 'path/to/normal.bam    normal_name'
+control_tsv_file: control_samples.tsv
+
+mutect_results_path: /path/to/mutect2_snakemake/results
+
+#SELECT Y if 10x data, N if not
+phasing_mode: Y
+
+#used for running lolopicker by interval
+chromosomes: ['chr1','chr2','chr3','chr4','chr5','chr6','chr7','chr8','chr9','chr10','chr11','chr12','chr13','chr14','chr15','chr16','chr17','chr18','chr19','chr20','chr21','chr22','chrX', 'chrY']
+
+#reference genome for lolopicker
+reference_genome: /path/to/genome.fa
+
+#lolopicker scripts
+somatic_script: code/LoLoPicker_somatic_python3_runtime.py
+control_script: code/LoLoPicker_control_python3_runtime2.py
+stats_script: code/LoLoPicker_stats_python3_runtime.py

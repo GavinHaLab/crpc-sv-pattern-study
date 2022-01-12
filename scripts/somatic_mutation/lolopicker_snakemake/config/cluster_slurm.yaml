@@ -1,0 +1,41 @@
+#cluster_slurm.yaml for lolopicker.snakefile
+#Anna Hoge
+#Template made November 25th, 2019
+#Ha Lab
+#Fred Hutchinson Cancer Research Center
+
+__default__:
+    partition: campus
+    time: "48:0:0"
+    mem: 4G
+    ncpus: 1
+    ntasks: 1
+    output: logs/cluster/{rule}.%A.out
+
+mutect2_vcf_to_no_indel_bed:
+    time: "10:0"
+    mem: 1G
+
+make_snv_only_bed:
+    time: "10:0"
+    mem: 1G
+
+split_bed_by_chr:
+    time: "10:0"
+    mem: 1G
+
+call_variants:
+    time: "150:0:0"
+    mem: 8G
+
+inspect_controls:
+    time: "150:0:0"
+    mem: 8G
+    ncpus: 4
+
+merge_control_stats:
+    time: "10:0"
+    mem: 1G
+
+core_stats:
+    time: "150:0:0"
