@@ -87,7 +87,7 @@ centered_matrix <- sweep(normalized_matrix, 1, apply(normalized_matrix, 1, mean)
 #cluster samples in mean-centered matrix based on Euclidean distance metric
 distance_matrix <- dist(t(centered_matrix), method = "euclidean")
 
-cls.method = "ward.D2" #"ward.D2", "complete"
+cls.method <- "ward.D2" #"ward.D2", "complete"
 clustering <- hclust(distance_matrix, method = cls.method)
 
 
@@ -361,7 +361,6 @@ names(long_cna_del_df)[2:length(names(long_cna_del_df))] <- paste0(names(long_cn
 
 
 
-#Nov.17.2021
 #combine sv gene + sv flanking
 sv_df <- fread(sv_file, header = TRUE) %>%
               select(-V1) %>%

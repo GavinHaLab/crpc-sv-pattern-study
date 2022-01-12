@@ -16,18 +16,18 @@ combined_mutations <- readRDS("../../../metadata/combined_mutations.rds")
 data("cancergenes_cgc81", package="dndscv")
 
 #Use unique indel sites instead of the total number of indels (it tends to be more robust)
-genes2remove = c("C2orf44", "CASC5", "CDKN2A.p14arf", "CDKN2A.p16INK4a", "FAM46C", 
+genes2remove <- c("C2orf44", "CASC5", "CDKN2A.p14arf", "CDKN2A.p16INK4a", "FAM46C", 
 	"KIAA1598", "LHFP", "MDS2", "MKL1", "MLLT4", "WHSC1", "WHSC1L1")
 
 # Download refdb from "https://github.com/im3sanger/dndscv_data/tree/master/data"
-dndsout = dndscv(combined_mutations, refdb="RefCDS_human_GRCh38.p12.rda", cv=NULL, gene_list=setdiff(known_cancergenes, genes2remove))
+dndsout <- dndscv(combined_mutations, refdb="RefCDS_human_GRCh38.p12.rda", cv=NULL, gene_list=setdiff(known_cancergenes, genes2remove))
 
-sel_cv = dndsout$sel_cv
+sel_cv <- dndsout$sel_cv
 print(head(sel_cv), digits = 3)
 write.table(sel_cv,"dndscv_results.txt", sep="\t", row.names=F, col.names=T, quote=F)
 
-signif_q_genes = sel_cv[sel_cv$qglobal_cv < 0.1,]
-signif_p_genes = sel_cv[sel_cv$pglobal_cv < 0.05,]
+signif_q_genes <- sel_cv[sel_cv$qglobal_cv < 0.1,]
+signif_p_genes <- sel_cv[sel_cv$pglobal_cv < 0.05,]
 
 write.table(signif_q_genes,"signif_genes_dndscv_q.1.txt", sep="\t",row.names=F,col.names=T,quote=F)
 write.table(signif_p_genes,"signif_genes_dndscv_p.05.txt", sep="\t",row.names=F,col.names=T,quote=F)

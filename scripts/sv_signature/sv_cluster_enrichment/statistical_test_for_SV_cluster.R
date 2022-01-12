@@ -11,11 +11,11 @@ library(DescTools)
 library(pwr)
 
 
-out_dir = "outputs"
-sv_sig_annot_dat = fread(sprintf("./%s/compiled_annotation_data_by_sample.txt",out_dir))
+out_dir <- "outputs"
+sv_sig_annot_dat <- fread(sprintf("./%s/compiled_annotation_data_by_sample.txt",out_dir))
 
 #include SNV/INDEL mutation, CNA alteration, chromoplexy, chromothripsis, ets fusion status as test hypothesis
-filt_annot = sv_sig_annot_dat %>%
+filt_annot <- sv_sig_annot_dat %>%
 			select(contains('_cna_') | ends_with('cluster') | ends_with('_mutation') | contains('chromoplexy') | contains('chromothripsis')
 			| contains('ets_all') | contains('erg_all')| contains('etv1_all')| contains('etv5_all')| contains('etv4_all')) %>% 
 			select(-ends_with('_chromothripsis')) %>%
@@ -23,17 +23,17 @@ filt_annot = sv_sig_annot_dat %>%
 
 #include ETS_none as as statistical testing
 filt_annot[is.na(ets_all) ,ets_none := 1]
-filt_annot[filt_annot==""] = NA
+filt_annot[filt_annot==""] <- NA
 
-filt_annot = mutate_all(filt_annot, function(x) as.numeric(as.character(x)))
+filt_annot <- mutate_all(filt_annot, function(x) as.numeric(as.character(x)))
 
-cluster_size = as.data.table(filt_annot %>% 
+cluster_size <- as.data.table(filt_annot %>% 
 				group_by(cluster) %>%  
 				dplyr::summarise(n = n()))
 
-total_sample_size =  nrow(filt_annot)
+total_sample_size <- nrow(filt_annot)
 
-summary_table = ddply(filt_annot, .(cluster), numcolwise(sum), na.rm=T)
+summary_table <- ddply(filt_annot, .(cluster), numcolwise(sum), na.rm=T)
 
 #wide to long
 long_summary_table <- summary_table %>% 
@@ -60,7 +60,7 @@ for(c in c(1:9)){
 
 	for (i in seq(ncol(df))) {
 
-	    test.df <- df[,i,drop=F]
+	    test.df <- df[, i, drop=F]
 	    tested.type <- colnames(df)[i]
 	    colnames(test.df) <- c(tested.type) # for clarity
 
@@ -80,12 +80,12 @@ for(c in c(1:9)){
 
 		#calculate the effect size parameter w.
 		#A value of φ  = 0.1 is considered to be a small effect, 0.3 a medium effect, and 0.5 a large effect.
-		w = Phi(xtab)
+		w <- Phi(xtab)
 		
 		#power test
 		# The rule of thumb for power analysis is typically that we seek to have a test with power of 0.8
 		# we want an 80% chance of finding the effect if it really is there, with a p-value of 5% chance of finding an effect that is not there. 
-		pwr_test = pwr.chisq.test(w = w, N = total_sample_size, df = 1, sig.level = 0.05, power = NULL)
+		pwr_test <- pwr.chisq.test(w = w, N = total_sample_size, df = 1, sig.level = 0.05, power = NULL)
 		power_values[i] <- pwr_test$power
 
 
@@ -93,17 +93,17 @@ for(c in c(1:9)){
 	}
 		qval <- p.adjust(p.values, method = "fdr")
 		
-		rbind_results_per_cluster = as.data.frame(do.call("rbind",results))
-		colnames(rbind_results_per_cluster) = c("alteration_type","gene_Exist.cluster","gene_notExist.cluster","gene_Exist.other","gene_notExist.other","pval","effect_size","power")
-		rbind_results_per_cluster[,"qval"] = qval
+		rbind_results_per_cluster <- as.data.frame(do.call("rbind",results))
+		colnames(rbind_results_per_cluster) <- c("alteration_type","gene_Exist.cluster","gene_notExist.cluster","gene_Exist.other","gene_notExist.other","pval","effect_size","power")
+		rbind_results_per_cluster[,"qval"] <- qval
 		
-		sort_out = rbind_results_per_cluster[order(rbind_results_per_cluster[,"pval"],decreasing=F),]
-		colnames(sort_out) = c("alteration_type","gene_Exist.cluster","gene_notExist.cluster","gene_Exist.other","gene_notExist.other","pval","effect_size","power","qval")
+		sort_out <- rbind_results_per_cluster[order(rbind_results_per_cluster[,"pval"],decreasing=F),]
+		colnames(sort_out) <- c("alteration_type","gene_Exist.cluster","gene_notExist.cluster","gene_Exist.other","gene_notExist.other","pval","effect_size","power","qval")
 		write.table(sort_out, sprintf("./%s/chiSqTest_for_cluster_%d_for_alteration_status_with_details.txt",out_dir,c), sep="\t", col.names=T, row.names=F, quote=F)
 
 		message("Adjusted pval by fdr")
 		print(qval[qval < 0.25])
 
-		pval_all[[c]] = p.values
-		qval_all[[c]] = qval
+		pval_all[[c]] <- p.values
+		qval_all[[c]] <- qval
 }
