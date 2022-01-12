@@ -1,39 +1,26 @@
 #################################
-#run dndscv to cobined mCRPC cohort
+# run dndscv for combined mCRPC cohort
 #################################
 options(scipen=999, stringsAsFactors = FALSE)
 
 library(dndscv)
-require(liftOver)
-library(rtracklayer)
-library(GenomicRanges)
-library(data.table)
 
-#load data
-crpc10x_snv = fread("../../../metadata/crpc10X.lolopicker.stats_calls.annovar.hg38_multianno.cdk12_rescue.txt")
-crpc10x_indel = fread("../../../metadata/crpc10X.strelka.passed.somatic.indels.annovar.hg38_multianno.cdk12_rescue.txt")
-wcdt_snv_indel = fread("../../../metadata/wcdt.somatic_pass.annovar.hg38_multianno.txt")
-
-crpc10x_snv_subset = crpc10x_snv[,c("sample","Chr","Start","Ref","Alt")]
-crpc10x_indel_subset = crpc10x_indel[,c("sample","Chr","Start","Ref","Alt")]
-wcdt_snv_indel_subset = wcdt_snv_indel[,c("sample","Chr","Start","Ref","Alt")]
-
-combined_mutations = rbind(crpc10x_snv_subset, crpc10x_indel_subset, wcdt_snv_indel_subset)
+combined_mutations <- readRDS("../../../metadata/combined_mutations.rds")
 
 
 #################################
-#Driver discovery (positive selection) in cancer exomes/genomes
-#no covariates available for hg38 yet
+# Driver discovery (positive selection) in cancer exomes/genomes
+# no covariates available for hg38 yet
 #################################
-#To reduce the risk of false positives and increase the signal to noise ratio, this example will only consider mutations in Cancer Gene Census genes (v81).
+# To reduce the risk of false positives and increase the signal to noise ratio, this example will only consider mutations in Cancer Gene Census genes (v81).
 data("cancergenes_cgc81", package="dndscv")
 
 #Use unique indel sites instead of the total number of indels (it tends to be more robust)
 genes2remove = c("C2orf44", "CASC5", "CDKN2A.p14arf", "CDKN2A.p16INK4a", "FAM46C", 
 	"KIAA1598", "LHFP", "MDS2", "MKL1", "MLLT4", "WHSC1", "WHSC1L1")
 
-
-dndsout = dndscv(combined_mutations, refdb="../../../metadata/RefCDS_human_GRCh38.p12.rda", cv=NULL, gene_list=setdiff(known_cancergenes, genes2remove))
+# Download refdb from "https://github.com/im3sanger/dndscv_data/tree/master/data"
+dndsout = dndscv(combined_mutations, refdb="RefCDS_human_GRCh38.p12.rda", cv=NULL, gene_list=setdiff(known_cancergenes, genes2remove))
 
 sel_cv = dndsout$sel_cv
 print(head(sel_cv), digits = 3)
