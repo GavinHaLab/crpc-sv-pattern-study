@@ -1,0 +1,1 @@
+Rscript makeMatrixFromTITAN-ICHOR_segBased_hg38.R path_to_optimalClusterSolution/ ../../../metadata/GRCh38.p12.ensembl.gene.annotations.sorted.include.AREnhancer.txt ../../../metadata/sampleList_allCases.txt common Gene 1000 CRPC10X_WCDT
