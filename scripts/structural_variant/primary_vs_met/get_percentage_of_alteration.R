@@ -1,4 +1,4 @@
-##This analysis will focus on SV only
+##This will draw figures 2-B
 
 library(plyr)
 
