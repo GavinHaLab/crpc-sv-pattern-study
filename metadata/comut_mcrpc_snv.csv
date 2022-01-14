@@ -1,0 +1,402 @@
+sample	category	value
+01115156-TA1	TP53	splicing
+01115156-TC5	PMS1	nonsynonymous SNV
+01115157-TC3	HDAC4	nonsynonymous SNV
+01115157-TC3	ZBTB16	stopgain
+01115183-TA1	SETD2	nonsynonymous SNV
+01115183-TA1	TP53	stopgain
+01115202-TC2	MED12	nonsynonymous SNV
+01115202-TC2	ITSN2	frameshift INDEL
+01115202-TC2	CDK12	frameshift INDEL
+01115248-TA3	NDST2	nonsynonymous SNV
+01115249-TC5	NF1	nonsynonymous SNV
+01115249-TC5	NOX3	nonsynonymous SNV
+01115249-TC5	MGA	stopgain
+01115257-TA4	NF1	nonsynonymous SNV
+01115257-TA4	KMT2D	nonsynonymous SNV
+01115257-TA4	KMT2C	frameshift INDEL
+01115263-TA3	PTEN	nonsynonymous SNV
+01115284-TA9	MET	nonsynonymous SNV
+01115326-TA3	BRCA2	nonsynonymous SNV
+01115326-TA3	BRCA2	stopgain
+01115326-TA3	RB1	frameshift INDEL
+01115326-TA3	FOXA1	frameshift INDEL
+01115326-TA3	TP53	frameshift INDEL
+01115374-TA2	PIK3R2	nonsynonymous SNV
+01115374-TA2	CDK12	stopgain
+01115374-TA2	AR	nonsynonymous SNV
+01115374-TA2	ZFP36L2	nonsynonymous SNV
+01115374-TA2	SAMD9	nonsynonymous SNV
+01115374-TA2	CDK12	frameshift INDEL
+01115378-TA2	SMARCA1	nonsynonymous SNV
+01115378-TA2	RB1	stopgain
+01115378-TA2	TP53	frameshift INDEL
+01115414-TA1	SPOP	stopgain
+01115414-TA1	CDK12	frameshift INDEL
+01115444-TA5	BRPF1	nonsynonymous SNV
+01115444-TA5	AKT1	nonsynonymous SNV
+01115468-TA3	COL5A3	nonsynonymous SNV
+01115468-TA3	GNAS	nonsynonymous SNV
+01115468-TA3	SPOP	nonsynonymous SNV
+01115468-TA3	FOXA1	nonsynonymous SNV
+01115468-TA3	ARID2	nonsynonymous SNV
+01115468-TA3	AR	nonsynonymous SNV
+01115468-TA3	FANCD2	nonsynonymous SNV
+01115468-TA3	PTEN	frameshift INDEL
+01115468-TA3	ARID2	frameshift INDEL
+01115503-TC2	CDK12	stopgain
+01115503-TC2	ZFP36L2	nonsynonymous SNV
+01115503-TC2	CDK12	frameshift INDEL
+01115531-TA4	KDM6A	nonsynonymous SNV
+01115531-TA4	AR	nonsynonymous SNV
+01115531-TA4	PYHIN1	frameshift INDEL
+01115531-TA4	RB1	splicing
+01115549-TA4	AR	nonsynonymous SNV
+01115549-TA4	PTEN	splicing
+01115554-TA2	RASA1	nonsynonymous SNV
+01115554-TA2	FANCD2	nonsynonymous SNV
+01115554-TA2	CTNNB1	nonsynonymous SNV
+01115554-TA2	SF3B1	nonsynonymous SNV
+01115554-TA2	KMT2A	nonsynonymous SNV
+01115556-TC1	ETV1	nonsynonymous SNV
+01115556-TC1	PALB2	nonsynonymous SNV
+01115556-TC1	AXIN1	stopgain
+01115556-TC1	PTEN	nonsynonymous SNV
+01115556-TC1	PIK3R2	splicing
+01115569-TC1	CUL3	nonsynonymous SNV
+01115574-TC3	AXL	nonsynonymous SNV
+01115574-TC3	TP53	nonsynonymous SNV
+01115576-TC2	KMT2C	nonsynonymous SNV
+01115576-TC2	RB1	frameshift INDEL
+01115577-TC1	KRAS	nonsynonymous SNV
+01115577-TC1	BRCA1	frameshift INDEL
+01115578-TC4	ATM	stopgain
+01115578-TC4	KDM6A	nonsynonymous SNV
+01115606-TA2	SAMD9	nonsynonymous SNV
+01115606-TA2	PALB2	nonsynonymous SNV
+01115644-TA1	ASXL2	nonsynonymous SNV
+01115644-TA1	SPOP	nonsynonymous SNV
+01115655-TA1	STAB2	nonsynonymous SNV
+01115655-TA1	TP53	splicing
+01115655-TC1	PIK3CA	nonsynonymous SNV
+01115655-TC1	COL15A1	nonsynonymous SNV
+01115655-TC1	STAB2	nonsynonymous SNV
+01115655-TC1	NKX3-1	nonsynonymous SNV
+01115655-TC1	TP53	splicing
+01115668-TA4	PRKDC	stopgain
+01115668-TA4	CUL3	stopgain
+01115669-TA3	BRAF	nonsynonymous SNV
+06115115-T	FOXA1	nonsynonymous SNV
+06115117-T	SETDB1	nonsynonymous SNV
+06115118-T	PIK3R2	nonsynonymous SNV
+6115233-T-C1	SLC4A2	nonsynonymous SNV
+DTB-003-BL	LSAMP	nonsynonymous SNV
+DTB-003-BL	KMT2C	frameshift INDEL
+DTB-003-BL	PAX6	nonsynonymous SNV
+DTB-003-BL	STAB2	stopgain
+DTB-005-BL	IL6ST	stopgain
+DTB-005-BL	CDKN1B	frameshift INDEL
+DTB-005-BL	TP53	nonsynonymous SNV
+DTB-005-BL	CHD3	nonsynonymous SNV
+DTB-005-BL	SMARCA1	frameshift INDEL
+DTB-005-BL	SMARCA1	nonsynonymous SNV
+DTB-008-BL	SAMD9	nonsynonymous SNV
+DTB-008-BL	KMT2C	stopgain
+DTB-008-BL	RAG1	stopgain
+DTB-008-BL	TP53	nonsynonymous SNV
+DTB-009-BL	TAF1L	nonsynonymous SNV
+DTB-011-BL	SF3B1	nonsynonymous SNV
+DTB-011-BL	ZNF292	frameshift INDEL
+DTB-011-BL	TP53	nonsynonymous SNV
+DTB-011-BL	CHD6	nonsynonymous SNV
+DTB-011-BL	AR	nonsynonymous SNV
+DTB-018-BL	APC	frameshift INDEL
+DTB-018-BL	PTPRD	nonsynonymous SNV
+DTB-018-BL	FOXA1	frameshift INDEL
+DTB-018-BL	TP53	nonsynonymous SNV
+DTB-019-PRO	APC	frameshift INDEL
+DTB-019-PRO	TP53	nonsynonymous SNV
+DTB-019-PRO	AR	nonsynonymous SNV
+DTB-020-BL	PIK3R1	frameshift INDEL
+DTB-020-BL	APC	frameshift INDEL
+DTB-020-BL	ZFHX3	frameshift INDEL
+DTB-020-BL	MGA	splicing
+DTB-021-BL	KMT2C	stopgain
+DTB-022-BL	BRAF	nonsynonymous SNV
+DTB-022-BL	KMT2C	nonsynonymous SNV
+DTB-022-BL	KMT2C	stopgain
+DTB-023-BL	APC	frameshift INDEL
+DTB-023-BL	NOX3	nonsynonymous SNV
+DTB-023-BL	PTEN	nonsynonymous SNV
+DTB-023-BL	RB1	stopgain
+DTB-023-BL	ZFHX3	frameshift INDEL
+DTB-023-BL	CNOT3	nonsynonymous SNV
+DTB-024-PRO	APC	frameshift INDEL
+DTB-024-PRO	PTEN	frameshift INDEL
+DTB-024-PRO	BRCA2	frameshift INDEL
+DTB-034-BL	MSH2	nonsynonymous SNV
+DTB-034-BL	CHD7	nonsynonymous SNV
+DTB-034-BL	KMT2D	nonsynonymous SNV
+DTB-034-BL	ZFHX3	frameshift INDEL
+DTB-034-BL	TP53	nonsynonymous SNV
+DTB-034-BL	ERCC2	nonsynonymous SNV
+DTB-034-BL	AR	nonsynonymous SNV
+DTB-036-BL	KMT2D	frameshift INDEL
+DTB-036-BL	TSC2	nonsynonymous SNV
+DTB-036-BL	TP53	nonsynonymous SNV
+DTB-036-BL	CHD6	nonsynonymous SNV
+DTB-036-BL	RB1	splicing
+DTB-037-BL	ZFHX3	splicing
+DTB-040-BL	KMT2C	nonsynonymous SNV
+DTB-040-BL	PTEN	frameshift INDEL
+DTB-040-BL	TP53	nonsynonymous SNV
+DTB-053-BL	MLH1	nonsynonymous SNV
+DTB-053-BL	FANCA	nonsynonymous SNV
+DTB-055-PRO	ZFP36L2	nonsynonymous SNV
+DTB-055-PRO	ATR	stopgain
+DTB-055-PRO	TAF1L	nonsynonymous SNV
+DTB-055-PRO	ATM	nonsynonymous SNV
+DTB-055-PRO	CDKN1B	frameshift INDEL
+DTB-055-PRO	TP53	nonsynonymous SNV
+DTB-059-BL	JAK1	frameshift INDEL
+DTB-059-BL	SF3B1	nonsynonymous SNV
+DTB-059-BL	KMT2D	nonsynonymous SNV
+DTB-059-BL	PPL	stopgain
+DTB-059-BL	TP53	nonsynonymous SNV
+DTB-059-BL	SPOP	nonsynonymous SNV
+DTB-060-BL	PTPRC	nonsynonymous SNV
+DTB-061-BL	ATR	nonsynonymous SNV
+DTB-061-BL	TAF1L	nonsynonymous SNV
+DTB-061-BL	BRCA2	nonsynonymous SNV
+DTB-061-BL	ERG	nonsynonymous SNV
+DTB-061-BL	TP53	splicing
+DTB-063-BL	PRKDC	nonsynonymous SNV
+DTB-063-BL	HRAS	nonsynonymous SNV
+DTB-063-BL	AKT1	nonsynonymous SNV
+DTB-063-BL	TP53	nonsynonymous SNV
+DTB-063-BL	CDK12	stopgain
+DTB-063-BL	CHD6	splicing
+DTB-064-BL	COL5A3	nonsynonymous SNV
+DTB-067-PRO	FOXA1	nonsynonymous SNV
+DTB-069-BL	ZFP36L2	nonsynonymous SNV
+DTB-069-BL	SMARCAD1	stopgain
+DTB-069-BL	RAG1	nonsynonymous SNV
+DTB-069-BL	TP53	nonsynonymous SNV
+DTB-069-BL	ZMYM3	frameshift INDEL
+DTB-071-BL	KMT2C	nonsynonymous SNV
+DTB-071-BL	RB1	stopgain
+DTB-071-BL	TP53	nonsynonymous SNV
+DTB-071-BL	GNAS	frameshift INDEL
+DTB-074-BL	PRKDC	stopgain
+DTB-074-BL	FOXA1	nonsynonymous SNV
+DTB-074-BL	SPOP	nonsynonymous SNV
+DTB-077-PRO	JAK1	nonsynonymous SNV
+DTB-077-PRO	PTEN	frameshift INDEL
+DTB-077-PRO	TSC2	nonsynonymous SNV
+DTB-080-BL	MSH2	nonsynonymous SNV
+DTB-080-BL	TAF1L	nonsynonymous SNV
+DTB-080-BL	PTEN	nonsynonymous SNV
+DTB-080-BL	SEL1L3	splicing
+DTB-083-BL	SPEN	frameshift INDEL
+DTB-083-BL	ARID1A	frameshift INDEL
+DTB-083-BL	MSH6	frameshift INDEL
+DTB-083-BL	BRPF1	nonsynonymous SNV
+DTB-083-BL	BRPF1	stopgain
+DTB-083-BL	ATR	nonsynonymous SNV
+DTB-083-BL	ATR	frameshift INDEL
+DTB-083-BL	PIK3R1	nonsynonymous SNV
+DTB-083-BL	CHD1	nonsynonymous SNV
+DTB-083-BL	KMT2C	frameshift INDEL
+DTB-083-BL	PRKDC	frameshift INDEL
+DTB-083-BL	TAF1L	frameshift INDEL
+DTB-083-BL	COL15A1	nonsynonymous SNV
+DTB-083-BL	RAG1	frameshift INDEL
+DTB-083-BL	KMT2A	nonsynonymous SNV
+DTB-083-BL	KMT2D	frameshift INDEL
+DTB-083-BL	WASF3	frameshift INDEL
+DTB-083-BL	BRCA2	nonsynonymous SNV
+DTB-083-BL	ARID4A	nonsynonymous SNV
+DTB-083-BL	AXIN1	nonsynonymous SNV
+DTB-083-BL	TP53	frameshift INDEL
+DTB-083-BL	CHD3	frameshift INDEL
+DTB-083-BL	NCOR1	nonsynonymous SNV
+DTB-083-BL	CDK12	nonsynonymous SNV
+DTB-083-BL	RNF43	nonsynonymous SNV
+DTB-083-BL	CTDP1	nonsynonymous SNV
+DTB-083-BL	ERF	frameshift INDEL
+DTB-083-BL	KDM6A	nonsynonymous SNV
+DTB-083-BL	AR	nonsynonymous SNV
+DTB-085-BL	TP53	stopgain
+DTB-091-BL	HRAS	nonsynonymous SNV
+DTB-091-BL	TP53	nonsynonymous SNV
+DTB-092-BL	TP53	nonsynonymous SNV
+DTB-094-BL	NOX3	nonsynonymous SNV
+DTB-094-BL	MET	nonsynonymous SNV
+DTB-094-BL	KMT2C	frameshift INDEL
+DTB-094-BL	PRKDC	nonsynonymous SNV
+DTB-094-BL	TP53	nonsynonymous SNV
+DTB-097-PRO	CTNNB1	nonsynonymous SNV
+DTB-097-PRO	PRKDC	nonsynonymous SNV
+DTB-097-PRO	NF1	nonsynonymous SNV
+DTB-097-PRO	KDM6A	frameshift INDEL
+DTB-100-BL	XPO1	nonsynonymous SNV
+DTB-100-BL	SEL1L3	nonsynonymous SNV
+DTB-100-BL	PAX6	nonsynonymous SNV
+DTB-100-BL	TP53	nonsynonymous SNV
+DTB-101-BL	ATM	frameshift INDEL
+DTB-101-BL	STAB2	nonsynonymous SNV
+DTB-101-BL	ZFHX3	stopgain
+DTB-102-PRO	TP53	frameshift INDEL
+DTB-102-PRO	NF1	frameshift INDEL
+DTB-102-PRO	AR	nonsynonymous SNV
+DTB-104-BL	ZNF292	frameshift INDEL
+DTB-104-BL	PTEN	stopgain
+DTB-104-BL	TP53	nonsynonymous SNV
+DTB-104-BL	MBD1	nonsynonymous SNV
+DTB-104-BL	AR	nonsynonymous SNV
+DTB-111-PRO	TP53	nonsynonymous SNV
+DTB-111-PRO	KMT2C	splicing
+DTB-112-BL	IDH1	nonsynonymous SNV
+DTB-112-BL	TP53	nonsynonymous SNV
+DTB-119-PRO	SETDB1	nonsynonymous SNV
+DTB-119-PRO	PIK3R1	frameshift INDEL
+DTB-119-PRO	MED12	nonsynonymous SNV
+DTB-119-PRO	TP53	splicing
+DTB-121-BL	ARID1A	nonsynonymous SNV
+DTB-121-BL	WASF3	nonsynonymous SNV
+DTB-121-BL	NCOR1	nonsynonymous SNV
+DTB-121-BL	CNOT3	nonsynonymous SNV
+DTB-121-BL	AR	nonsynonymous SNV
+DTB-124-BL	CTNNB1	nonsynonymous SNV
+DTB-124-BL	CDKN2A	stopgain
+DTB-124-BL	USP28	frameshift INDEL
+DTB-124-BL	CTDP1	frameshift INDEL
+DTB-124-BL	PRKDC	splicing
+DTB-126-BL	IL6ST	nonsynonymous SNV
+DTB-126-BL	JADE2	nonsynonymous SNV
+DTB-126-BL	BRCA1	nonsynonymous SNV
+DTB-126-BL	UNC13D	nonsynonymous SNV
+DTB-126-BL	TP53	splicing
+DTB-127-PRO	SF3B1	nonsynonymous SNV
+DTB-127-PRO	SEL1L3	stopgain
+DTB-127-PRO	TP53	nonsynonymous SNV
+DTB-127-PRO	GNAS	nonsynonymous SNV
+DTB-128-BL	SPEN	stopgain
+DTB-128-BL	PDS5A	nonsynonymous SNV
+DTB-128-BL	IL6ST	nonsynonymous SNV
+DTB-128-BL	APC	frameshift INDEL
+DTB-128-BL	APC	nonsynonymous SNV
+DTB-128-BL	APC	stopgain
+DTB-128-BL	TP53	nonsynonymous SNV
+DTB-128-BL	CDH1	splicing
+DTB-129-BL	TAF1L	nonsynonymous SNV
+DTB-129-BL	COL5A1	nonsynonymous SNV
+DTB-129-BL	BRCA2	stopgain
+DTB-129-BL	AXL	nonsynonymous SNV
+DTB-132-BL	MATN4	nonsynonymous SNV
+DTB-135-PRO	SPEN	frameshift INDEL
+DTB-135-PRO	CTNNB1	nonsynonymous SNV
+DTB-135-PRO	ZNF292	frameshift INDEL
+DTB-137-PRO	TP53	splicing
+DTB-138-BL	AR	nonsynonymous SNV
+DTB-140-BL	ZFHX3	nonsynonymous SNV
+DTB-143-BL	CDKN1B	stopgain
+DTB-143-BL	CDC27	nonsynonymous SNV
+DTB-146-BL	SETD2	frameshift INDEL
+DTB-146-BL	KMT2C	nonsynonymous SNV
+DTB-146-BL	WRN	nonsynonymous SNV
+DTB-149-BL	ASXL2	stopgain
+DTB-149-BL	PMS1	frameshift INDEL
+DTB-149-BL	PMS1	nonsynonymous SNV
+DTB-149-BL	ATR	nonsynonymous SNV
+DTB-149-BL	PTPRD	nonsynonymous SNV
+DTB-149-BL	PTEN	stopgain
+DTB-149-BL	BRIP1	nonsynonymous SNV
+DTB-151-BL	TP53	nonsynonymous SNV
+DTB-156-BL	RB1	stopgain
+DTB-159-BL	APC	frameshift INDEL
+DTB-159-BL	AKT1	nonsynonymous SNV
+DTB-159-BL	PIK3R2	nonsynonymous SNV
+DTB-159-BL	ERF	nonsynonymous SNV
+DTB-165-PRO	KMT2C	frameshift INDEL
+DTB-165-PRO	CDKN1B	frameshift INDEL
+DTB-165-PRO	BRCA2	nonsynonymous SNV
+DTB-165-PRO	TP53	nonsynonymous SNV
+DTB-165-PRO	BRCA1	nonsynonymous SNV
+DTB-165-PRO	BRIP1	nonsynonymous SNV
+DTB-165-PRO	PTPRC	splicing
+DTB-167-PRO	PTEN	nonsynonymous SNV
+DTB-170-BL	ZMYM3	frameshift INDEL
+DTB-172-BL	ARID1A	nonsynonymous SNV
+DTB-172-BL	TP53	nonsynonymous SNV
+DTB-173-BL	BRCA2	stopgain
+DTB-173-BL	COL5A3	nonsynonymous SNV
+DTB-175-BL	ASXL2	frameshift INDEL
+DTB-175-BL	APC	nonsynonymous SNV
+DTB-175-BL	TP53	nonsynonymous SNV
+DTB-176-BL	MYC	nonsynonymous SNV
+DTB-176-BL	COL5A1	nonsynonymous SNV
+DTB-176-BL	CNOT3	nonsynonymous SNV
+DTB-183-BL	CDK12	nonsynonymous SNV
+DTB-186-BL	SF3B1	nonsynonymous SNV
+DTB-186-BL	MYBBP1A	frameshift INDEL
+DTB-186-BL	TP53	nonsynonymous SNV
+DTB-186-BL	CHD3	nonsynonymous SNV
+DTB-186-BL	NCOR1	stopgain
+DTB-187-BL	PIK3CB	nonsynonymous SNV
+DTB-187-BL	AR	nonsynonymous SNV
+DTB-188-BL	ASXL2	frameshift INDEL
+DTB-188-BL	STAB2	nonsynonymous SNV
+DTB-188-BL	TCF12	nonsynonymous SNV
+DTB-190-BL	KMT2C	nonsynonymous SNV
+DTB-190-BL	PTEN	nonsynonymous SNV
+DTB-190-BL	BRCA2	frameshift INDEL
+DTB-201-PRO	CTNNB1	nonsynonymous SNV
+DTB-201-PRO	PDS5A	frameshift INDEL
+DTB-201-PRO	FOXA1	nonsynonymous SNV
+DTB-201-PRO	CHD3	nonsynonymous SNV
+DTB-202-BL	ASXL2	frameshift INDEL
+DTB-204-BL	APC	frameshift INDEL
+DTB-204-BL	USP28	stopgain
+DTB-204-BL	SPOP	nonsynonymous SNV
+DTB-205-BL	ARID1A	nonsynonymous SNV
+DTB-205-BL	TP53	splicing
+DTB-210-BL	APC	stopgain
+DTB-210-BL	KMT2C	frameshift INDEL
+DTB-210-BL	USP28	frameshift INDEL
+DTB-210-BL	SPOP	nonsynonymous SNV
+DTB-213-BL	AKT1	nonsynonymous SNV
+DTB-213-BL	AR	nonsynonymous SNV
+DTB-214-BL	CHD3	frameshift INDEL
+DTB-214-BL	CDK12	nonsynonymous SNV
+DTB-214-BL	SPOP	nonsynonymous SNV
+DTB-216-PRO	RB1	stopgain
+DTB-216-PRO	ZFHX3	frameshift INDEL
+DTB-220-BL	FOXA1	nonsynonymous SNV
+DTB-220-BL	ERF	nonsynonymous SNV
+DTB-222-BL	ATM	stopgain
+DTB-222-BL	NCOR2	nonsynonymous SNV
+DTB-222-BL	BRCA2	nonsynonymous SNV
+DTB-223-BL	TP53	startloss
+DTB-223-BL	TMPRSS2	frameshift INDEL
+DTB-232-PRO	PTPRD	nonsynonymous SNV
+DTB-234-BL	PTPRD	nonsynonymous SNV
+DTB-234-BL	TP53	nonsynonymous SNV
+DTB-234-BL	AR	nonsynonymous SNV
+DTB-251-BL	TP53	stopgain
+DTB-252-BL	JAK1	splicing
+DTB-255-BL	TP53	frameshift INDEL
+DTB-255-BL	TP53	nonsynonymous SNV
+DTB-255-BL	CHD6	nonsynonymous SNV
+DTB-255-BL	ERG	nonsynonymous SNV
+DTB-258-BL	TP53	frameshift INDEL
+DTB-260-BL	KDM6A	nonsynonymous SNV
+DTB-260-BL	NCOR2	splicing
+DTB-261-BL	TAP1	nonsynonymous SNV
+DTB-261-BL	TP53	frameshift INDEL
+DTB-265-PRO	KMT2C	frameshift INDEL
+DTB-265-PRO	TP53	frameshift INDEL
+DTB-265-PRO	SPOP	nonsynonymous SNV
+DTB-266-BL	MGA	frameshift INDEL
+DTB-266-BL	TP53	nonsynonymous SNV
+DTB-266-BL	ZMYM3	frameshift INDEL
