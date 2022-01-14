@@ -106,7 +106,6 @@ for(type in c("altered","sv")){
   colnames(mcrpc_vs_primaryMat) <- c("mcrpc", "primary", type, sprintf("Not_%s",type))
   rownames(mcrpc_vs_primaryMat) <- gene_list_prostate
   
-  #Pearson's Chi-squared test
   fisher.pval <- aaply(.data=mcrpc_vs_primaryMat, .margins=1, .fun=function(x){
     xtab = t(matrix(x, nrow=2, ncol=2, byrow=F, dimnames=list(names(x)[3:4], names(x)[1:2])))
     fisher.test(xtab, alternative="greater")$p.value
