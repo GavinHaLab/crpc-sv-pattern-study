@@ -111,7 +111,7 @@ TitanCNA_numCores: 1
 mergeIchorHOMD: FALSE  # consider TRUE when working with pure tumor
 
 ## SVABA settings ##
-svaba_dbSNPindelVCF:  /path/to/known_polymorphic_sites/resources_broad_hg38_v0_Homo_sapiens_assembly38.known_indels.vcf.gz
+svaba_dbSNPindelVCF:  /path/to/known/indels.vcf
 svaba_minSPAN: 0
 svaba_minInversionSPAN: 1000
 svaba_numThreads: 4
