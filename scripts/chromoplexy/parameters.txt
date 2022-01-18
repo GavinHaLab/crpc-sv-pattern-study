@@ -1,0 +1,16 @@
+run_name:			merged
+background_rate_file:		sv_merged.txt
+rearrangement_data:		sv_merged.txt
+copy_number_data:		cn_merged.seg
+copy_number_type:		seq
+summarize_genes:		true
+gene_table:			gene_table_hg38.txt
+mu_window:			1000000
+gene_test_window:		25000
+array_probes:			probes_hg38.mat
+deletion_thresh:		-0.2
+bp_window:			10000
+significance_thresh:		0.05
+genome_size:			3088269832
+test_distance_thresh:		1000000
+create_circos_file:		true

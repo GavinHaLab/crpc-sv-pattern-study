@@ -1,0 +1,15 @@
+# TDP samples
+01115374-TA2	*
+01115202-TC2	*
+01115503-TC2	*
+01115257-TA4	*
+01115284-TA9	*
+01115414-TA1	*
+DTB-063-BL	*
+DTB-183-BL	*
+DTB-214-BL	*
+# these samples cause numeric error
+DTB-023-BL	*
+DTB-102-PRO	*
+DTB-111-PRO	*
+DTB-151-BL	*
