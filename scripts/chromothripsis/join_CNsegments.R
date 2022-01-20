@@ -9,7 +9,7 @@ gap_threshold <- 1
 input_rds <- "../../metadata/CRPC10X42-WCDT101_copy_number.rds"
 output_prefix <- gsub(".rds","",basename(input_rds))
 
-# copy number input file; has 4 feilds ('Sample','Chromosome','Start','End','Corrected_Copy_Number')
+# copy number input file; requires 4 columns ('Sample','Chromosome','Start','End','Corrected_Copy_Number')
 CNdata <- readRDS(input_rds)
 
 centromere <- read.table("../../metadata/GRCh38.GCA_000001405.2_centromere_acen.txt", header = TRUE, sep='\t')
