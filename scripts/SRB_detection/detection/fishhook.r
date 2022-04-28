@@ -50,7 +50,7 @@ file_chrom_hmm <- "covariate/chromHMM_LNCaP.hg38.bed"
 file_cfs <- "covariate/common_fragile_sites.hg38.txt"
 
 ############ other input files ###########
-file_eligible <- "covariate/um75-hs38DH.complement.bed"
+file_eligible <- "covariate/eligible_intersect_callable.bed"
 file_sv <- args$file_sv
 file_cytoband <- "covariate/hg38.cytoband.bed"
 ########################################## 

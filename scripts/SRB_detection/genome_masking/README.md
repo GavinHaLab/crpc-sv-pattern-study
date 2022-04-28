@@ -152,3 +152,7 @@ complementBed -i \
   | awk '$1!~/_/ && $1~/^[0-9X]/' \
   > um75-hs38DH.complement.bed
 ```
+
+Use the intersection of the final mask file with callable regions identified
+by GATK `CallableLoci` (file not included) to get the eligible region file
+`eligible_intersect_callable.bed` used for SRB analysis.
