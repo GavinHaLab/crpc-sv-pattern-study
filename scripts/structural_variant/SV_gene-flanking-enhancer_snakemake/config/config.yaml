@@ -1,0 +1,19 @@
+
+#sv bedpe prefix
+#bedpe MUST present in the same snakemake run folder (create a symlink)
+bedpe_prefix:  CRPC10X42-PoNToolFilter_manual_edit_WCDT101_svaba-titan.min1kb
+
+#path to sample file
+sample_file: sampleList_allCases.txt #check the file format from metadata folder
+
+#path to gene of interest file
+gene_file: combined_gene_list_159.txt #check the file format from metadata folder
+
+#path to gencode.v33.annotation.genes
+annotation_file: ./data/gencode.v33.annotation.genes.tsv #hg38
+
+chrEnd_rds: ./data/chrEnds.rds #hg38
+
+outPrefix: mCRPC_cohort
+
+H3K27ac_bed: ./data/hg38_met_peaks_H3K27ac.bed #hg38
