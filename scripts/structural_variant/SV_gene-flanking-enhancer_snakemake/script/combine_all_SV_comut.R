@@ -24,13 +24,13 @@ if(file.exists("./results/comut_files/comut_intersect_sv_and_flanking_dn.csv")){
 	bind_list[["sv_flankRight"]] = sv_flankRight
 
 }
-if(file.exists("./results/comut_files/comut_SV_enhUpMatrix_H3K27ac_single.csv")){
-	sv_enhancerLeft = read.csv("./results/comut_files/comut_SV_enhUpMatrix_H3K27ac_single.csv")
+if(file.exists("./results/comut_files/comut_shortSV_enhUpMatrix_H3K27ac_single.csv")){
+	sv_enhancerLeft = read.csv("./results/comut_files/comut_shortSV_enhUpMatrix_H3K27ac_single.csv")
 	sv_enhancerLeft$source = "svShort_enhancerLeft"
 	bind_list[["sv_enhancerLeft"]] = sv_enhancerLeft
 }
-if(file.exists("./results/comut_files/comut_SV_enhDownMatrix_H3K27ac_single.csv")){
-	sv_enhancerRight = read.csv("./results/comut_files/comut_SV_enhDownMatrix_H3K27ac_single.csv")
+if(file.exists("./results/comut_files/comut_shortSV_enhDownMatrix_H3K27ac_single.csv")){
+	sv_enhancerRight = read.csv("./results/comut_files/comut_shortSV_enhDownMatrix_H3K27ac_single.csv")
 	sv_enhancerRight$source = "svShort_enhancerRight"
 	bind_list[["sv_enhancerRight"]] = sv_enhancerRight
 }

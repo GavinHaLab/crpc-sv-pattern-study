@@ -1,19 +1,19 @@
 
-#sv bedpe prefix
-#bedpe MUST present in the same snakemake run folder (create a symlink)
+# Requires 1) input SV bedpe 2) sample list file and 3) gene of interest file with coordinate information.
+# SV bedpe must present at snakemake run folder (recommand to use symlinks for this.)
+# Example run: /fh/fast/ha_g/projects/NelsonLab/CRPC_patients-pdx_WGS/Lucap_Analysis/SV_gene-flanking-enhancer_snakemake
+
+# Change input params here
+
 bedpe_prefix:  CRPC10X42-PoNToolFilter_manual_edit_WCDT101_svaba-titan.min1kb
 
-#path to sample file
 sample_file: sampleList_allCases.txt #check the file format from metadata folder
 
-#path to gene of interest file
 gene_file: combined_gene_list_159.txt #check the file format from metadata folder
-
-#path to gencode.v33.annotation.genes
-annotation_file: ./data/gencode.v33.annotation.genes.tsv #hg38
-
-chrEnd_rds: ./data/chrEnds.rds #hg38
 
 outPrefix: mCRPC_cohort
 
-H3K27ac_bed: ./data/hg38_met_peaks_H3K27ac.bed #hg38
+# Don't change following arguments (if you use hg38)
+annotation_file: data/gencode.v33.annotation.genes.tsv #hg38
+chrEnd_rds: data/chrEnds.rds #hg38
+H3K27ac_bed: data/hg38_met_peaks_H3K27ac.bed #hg38
