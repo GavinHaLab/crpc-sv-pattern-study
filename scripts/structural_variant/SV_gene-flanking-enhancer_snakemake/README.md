@@ -5,8 +5,18 @@
 <img src="https://github.com/GavinHaLab/crpc-sv-pattern-study/blob/main/metadata/SV-gene-flanking-pipeline.png" title="Analysis Workflow" height="300" width="700">
 
 ## Definition of SV events
+### For short SV events (SPAN < 10mb)
 
-<img src="https://github.com/GavinHaLab/crpc-sv-pattern-study/blob/main/metadata/SV_events_definition.png" title="Analysis Workflow" height="400" width="600">
+<img src="https://github.com/GavinHaLab/crpc-sv-pattern-study/blob/main/metadata/short_SV_events_definition.png" title="Analysis Workflow" height="400" width="600">
+
+### For translocation events including intra-chromosomal long SV events (SPAN >= 10mb), flankingGene Left
+
+<img src="https://github.com/GavinHaLab/crpc-sv-pattern-study/blob/main/metadata/long_SV_events_definition_left.png" title="Analysis Workflow" height="400" width="800">
+
+### For translocation events including intra-chromosomal long SV events (SPAN >= 10mb), flankingGene Right
+
+<img src="https://github.com/GavinHaLab/crpc-sv-pattern-study/blob/main/metadata/long_SV_events_definition_right.png" title="Analysis Workflow" height="400" width="800">
+
 
 ## Prioritize SV events 
 
