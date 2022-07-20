@@ -1,5 +1,8 @@
-# Produce CRPC10X42_WCDT_AR-enh_compare_AR-vs-Enh.txt
-Rscript compareCN_2regions_v2.R pathToTitanOptimalClusterSolution/ ../../../metadata/AR_coord.txt ../../../metadata/sampleList_allCases.txt CRPC10X42_WCDT_AR-enh_compare
+### Produce "CRPC10X42_WCDT_AR-enh_compare_AR-vs-Enh.txt"
 
-# Fig 3-B
+Rscript compareCN_2regions_v2.R {pathToTitanOptimalClusterSolution} ../../../metadata/AR_coord.txt ../../../metadata/sampleList_allCases.txt CRPC10X42_WCDT_AR-enh_compare
+
+### Create Fig 3-B 
+* This takes "CRPC10X42_WCDT_AR-enh_compare_AR-vs-Enh.txt" comes out from compareCN_2regions_v2.R.
+
 Rscript AR_expression_with_copy_number_status.R
