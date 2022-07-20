@@ -17,6 +17,8 @@
 
 <img src="https://github.com/GavinHaLab/crpc-sv-pattern-study/blob/main/metadata/long_SV_events_definition_right.png" title="Analysis Workflow" height="400" width="800">
 
+For translocation events including intra-chromosomal long SV, the direction of the SV should go towards the gene body region.
+Long flanking with enhancer (gain of enhancer) is interesting (Enhancer-Associated Rearrangements); hypothesized that enhancer hijacking translocation events that bring potent enhancers to driver gene.
 
 ## Prioritize SV events 
 
