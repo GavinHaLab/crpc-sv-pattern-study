@@ -8,7 +8,7 @@ buffer <- 0 #no buffer
 
 
 #use genecode annotation--filter gene by protein coding only
-geneFile <- "gencode.v33.annotation.genes.tsv"
+geneFile <- "../structural_variant/SV_gene-flanking-enhancer_snakemake/data/gencode.v33.annotation.genes.tsv"
 genes <- fread(geneFile)
 protein_coding_genes <- genes [gene_type=="protein_coding",c("gene_name","seqid","start","end","strand")]
 protein_coding_genes[ ,Start := min(start)-buffer, by=gene_name]
