@@ -10,6 +10,6 @@
 
 ## Prioritize SV events 
 
-* Gene transecting events were prioritized over flanking events during annotation. 
+* Gene transecting events are prioritized over flanking events for SV calls assignments.
 
 <img src="https://github.com/GavinHaLab/crpc-sv-pattern-study/blob/main/metadata/SV_gene_flanking_double_count_example.png" title="Analysis Workflow" height="400" width="800">
