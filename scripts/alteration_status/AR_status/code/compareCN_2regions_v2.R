@@ -6,7 +6,8 @@ library(GenomicRanges)
 library(stringr)
 library(ggplot2)
 library(reshape2)
-source("/fh/fast/ha_g/user/gha/software/git/ichorCNA/R/plotting.R")
+source("util/plotting.R")
+
 args <- commandArgs(TRUE)
 
 options(stringsAsFactors=F, scipen=999, width=160)
