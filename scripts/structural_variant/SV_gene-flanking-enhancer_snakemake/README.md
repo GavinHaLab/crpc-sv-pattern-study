@@ -25,3 +25,15 @@ Long flanking with enhancer (gain of enhancer) is interesting (Enhancer-Associat
 * Gene transecting events are prioritized over flanking events for SV calls assignments.
 
 <img src="https://github.com/GavinHaLab/crpc-sv-pattern-study/blob/main/metadata/SV_gene_flanking_double_count_example.png" title="Analysis Workflow" height="400" width="800">
+
+## Snakemake
+
+* This workflow takes SV bepe (bedpe_prefix), sample list (sample_file) and gene list (gene_file). Please update this to your config.yaml. Current gene annotation information is in hg38 (data folder).
+
+* SV bedpe format can be found from https://github.com/GavinHaLab/crpc-sv-pattern-study/blob/main/metadata/CRPC10X42-PoNToolFilter_manual_edit_WCDT101_svaba-titan.min1kb.bedpe
+
+* sample file format can be found from https://github.com/GavinHaLab/crpc-sv-pattern-study/blob/main/metadata/sampleList_allCases.txt
+
+* gene file format can be found from https://github.com/GavinHaLab/crpc-sv-pattern-study/blob/main/metadata/combined_gene_list_159.txt
+
+
