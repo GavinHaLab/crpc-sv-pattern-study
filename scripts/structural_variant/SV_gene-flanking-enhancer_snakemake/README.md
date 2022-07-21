@@ -26,7 +26,7 @@ Long flanking with enhancer (gain of enhancer) is interesting (Enhancer-Associat
 
 <img src="https://github.com/GavinHaLab/crpc-sv-pattern-study/blob/main/metadata/SV_gene_flanking_double_count_example.png" title="Analysis Workflow" height="400" width="800">
 
-## Snakemake
+## Snakemake run
 
 * This workflow takes SV bepe (bedpe_prefix), sample list (sample_file) and gene list (gene_file). Please update this to your config.yaml. Current gene annotation information is in hg38 (data folder).
 
